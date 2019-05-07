@@ -1,0 +1,23 @@
+PODS:
+  - libColorPicker (0.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - libColorPicker (from `../`)
+  - Masonry (= 1.1.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+
+EXTERNAL SOURCES:
+  libColorPicker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  libColorPicker: d502de5a5748533a21c1c268e14146750d2726e7
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: c6dcebd4e537a5ce439e1376fcc4712f4f8ad3b7
+
+COCOAPODS: 1.5.3

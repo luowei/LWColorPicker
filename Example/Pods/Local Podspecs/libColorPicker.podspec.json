@@ -1,0 +1,22 @@
+{
+  "name": "libColorPicker",
+  "version": "0.1.0",
+  "summary": "A short description of libColorPicker.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/luowei/libColorPicker",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "luowei": "luowei@wodedata.com"
+  },
+  "source": {
+    "git": "https://github.com/luowei/libColorPicker.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "libColorPicker/Classes/**/*"
+}

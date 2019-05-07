@@ -5,9 +5,12 @@ platform :ios, '8.0'
 target 'libColorPicker_Example' do
   pod 'libColorPicker', :path => '../'
 
-  target 'libColorPicker_Tests' do
-    inherit! :search_paths
+  pod 'Masonry','1.1.0'
 
-    
-  end
+  # target 'libColorPicker_Tests' do
+  #   inherit! :search_paths
+  #
+  # end
+
+
 end
