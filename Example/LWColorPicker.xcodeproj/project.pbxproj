@@ -17,22 +17,24 @@
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		B2517EE70C2D1D71D322D00E /* Pods_libColorPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57605B32C7988374B865D00A /* Pods_libColorPicker_Example.framework */; };
+		C6E06AB9B01DB003B4219892 /* Pods_LWColorPicker_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F775934BAA50917A5453BC1 /* Pods_LWColorPicker_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30CBDD741CBE63671ECA13C6 /* Pods-LWColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3D8B42AC98DDF023C6C1FAB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		4D46D558CE1B41B98699B8BC /* Pods-libColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libColorPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libColorPicker_Tests/Pods-libColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		55CC306253C6E86B9A0D2B0F /* Pods-libColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libColorPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-libColorPicker_Tests/Pods-libColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		57605B32C7988374B865D00A /* Pods_libColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* libColorPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = libColorPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F775934BAA50917A5453BC1 /* Pods_LWColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWColorPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D46D558CE1B41B98699B8BC /* Pods-LWColorPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Tests/Pods-LWColorPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		55CC306253C6E86B9A0D2B0F /* Pods-LWColorPicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Tests/Pods-LWColorPicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5B834EC002B402863C00B48F /* Pods-LWColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* LWColorPicker_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LWColorPicker_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* libColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "libColorPicker-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* LWColorPicker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LWColorPicker-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* libColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "libColorPicker-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* LWColorPicker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LWColorPicker-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* LWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* LWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LWAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* LWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LWViewController.h; sourceTree = "<group>"; };
@@ -43,13 +45,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		664C56A429CA4647F5F17CB8 /* libColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = libColorPicker.podspec; path = ../libColorPicker.podspec; sourceTree = "<group>"; };
+		664C56A429CA4647F5F17CB8 /* LWColorPicker.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LWColorPicker.podspec; path = ../LWColorPicker.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8E9C8E59FD872B58D8FF259F /* Pods_libColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_libColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AB3FE4B7D2A99129C2C574FB /* Pods-libColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libColorPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8E9C8E59FD872B58D8FF259F /* Pods_LWColorPicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LWColorPicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB3FE4B7D2A99129C2C574FB /* Pods-LWColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E3302480A3EF3871ECD11661 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		EB1FB91F7D6557D845990567 /* Pods-libColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-libColorPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EB1FB91F7D6557D845990567 /* Pods-LWColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LWColorPicker_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +62,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				B2517EE70C2D1D71D322D00E /* Pods_libColorPicker_Example.framework in Frameworks */,
+				C6E06AB9B01DB003B4219892 /* Pods_LWColorPicker_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for libColorPicker */,
+				6003F593195388D20070C39A /* Example for LWColorPicker */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -82,7 +84,7 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* libColorPicker_Example.app */,
+				6003F58A195388D20070C39A /* LWColorPicker_Example.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,13 +96,13 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				57605B32C7988374B865D00A /* Pods_libColorPicker_Example.framework */,
-				8E9C8E59FD872B58D8FF259F /* Pods_libColorPicker_Tests.framework */,
+				8E9C8E59FD872B58D8FF259F /* Pods_LWColorPicker_Tests.framework */,
+				3F775934BAA50917A5453BC1 /* Pods_LWColorPicker_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for libColorPicker */ = {
+		6003F593195388D20070C39A /* Example for LWColorPicker */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* LWAppDelegate.h */,
@@ -112,17 +114,17 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
-			name = "Example for libColorPicker";
-			path = libColorPicker;
+			name = "Example for LWColorPicker";
+			path = LWColorPicker;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* libColorPicker-Info.plist */,
+				6003F595195388D20070C39A /* LWColorPicker-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* libColorPicker-Prefix.pch */,
+				6003F59B195388D20070C39A /* LWColorPicker-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -149,7 +151,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				664C56A429CA4647F5F17CB8 /* libColorPicker.podspec */,
+				664C56A429CA4647F5F17CB8 /* LWColorPicker.podspec */,
 				3D8B42AC98DDF023C6C1FAB2 /* README.md */,
 				E3302480A3EF3871ECD11661 /* LICENSE */,
 			);
@@ -159,10 +161,12 @@
 		FC59E2968896937923C9BDF5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				AB3FE4B7D2A99129C2C574FB /* Pods-libColorPicker_Example.debug.xcconfig */,
-				EB1FB91F7D6557D845990567 /* Pods-libColorPicker_Example.release.xcconfig */,
-				4D46D558CE1B41B98699B8BC /* Pods-libColorPicker_Tests.debug.xcconfig */,
-				55CC306253C6E86B9A0D2B0F /* Pods-libColorPicker_Tests.release.xcconfig */,
+				AB3FE4B7D2A99129C2C574FB /* Pods-LWColorPicker_Example.debug.xcconfig */,
+				EB1FB91F7D6557D845990567 /* Pods-LWColorPicker_Example.release.xcconfig */,
+				4D46D558CE1B41B98699B8BC /* Pods-LWColorPicker_Tests.debug.xcconfig */,
+				55CC306253C6E86B9A0D2B0F /* Pods-LWColorPicker_Tests.release.xcconfig */,
+				30CBDD741CBE63671ECA13C6 /* Pods-LWColorPicker_Example.debug.xcconfig */,
+				5B834EC002B402863C00B48F /* Pods-LWColorPicker_Example.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -170,9 +174,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* libColorPicker_Example */ = {
+		6003F589195388D20070C39A /* LWColorPicker_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libColorPicker_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWColorPicker_Example" */;
 			buildPhases = (
 				350CB03D7575EB625C7F295C /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -184,9 +188,9 @@
 			);
 			dependencies = (
 			);
-			name = libColorPicker_Example;
-			productName = libColorPicker;
-			productReference = 6003F58A195388D20070C39A /* libColorPicker_Example.app */;
+			name = LWColorPicker_Example;
+			productName = LWColorPicker;
+			productReference = 6003F58A195388D20070C39A /* LWColorPicker_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -204,11 +208,12 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "libColorPicker" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "LWColorPicker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -217,7 +222,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* libColorPicker_Example */,
+				6003F589195388D20070C39A /* LWColorPicker_Example */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +257,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-libColorPicker_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-LWColorPicker_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -264,23 +269,19 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LWColorPicker/LWColorPicker.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
-				"${BUILT_PRODUCTS_DIR}/libColorPicker/libColorPicker.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LWColorPicker.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libColorPicker.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -401,15 +402,15 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB3FE4B7D2A99129C2C574FB /* Pods-libColorPicker_Example.debug.xcconfig */;
+			baseConfigurationReference = 30CBDD741CBE63671ECA13C6 /* Pods-LWColorPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libColorPicker/libColorPicker-Prefix.pch";
-				INFOPLIST_FILE = "libColorPicker/libColorPicker-Info.plist";
+				GCC_PREFIX_HEADER = "LWColorPicker/LWColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "LWColorPicker/LWColorPicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libColorPicker-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWColorPicker-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -417,15 +418,15 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EB1FB91F7D6557D845990567 /* Pods-libColorPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 5B834EC002B402863C00B48F /* Pods-LWColorPicker_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = G3A2KYKYBU;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "libColorPicker/libColorPicker-Prefix.pch";
-				INFOPLIST_FILE = "libColorPicker/libColorPicker-Info.plist";
+				GCC_PREFIX_HEADER = "LWColorPicker/LWColorPicker-Prefix.pch";
+				INFOPLIST_FILE = "LWColorPicker/LWColorPicker-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.libColorPicker-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wodedata.LWColorPicker-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,7 +435,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "libColorPicker" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "LWColorPicker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -443,7 +444,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "libColorPicker_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "LWColorPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,

@@ -7,578 +7,538 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		025C97F9F0A98F949B6F4292629469CE /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 313590D50AC5F8A05F06277A53F20E3F /* RSColorPickerView.m */; };
-		04401CD412383BD5CF64763EAAED709C /* RSColorPickerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6151ECE5B4A3BED17DD01B09750E48BD /* RSColorPickerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		047223DEB22CB10257C3ED9144276CD3 /* RSOpacitySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 68D004FF5BAA6FFA8DA055365EE8E8FA /* RSOpacitySlider.m */; };
-		07818F5781210B4DD5E5D0E0E77CE532 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */; };
-		078D00F494A3DDEE9FEC4451B9DF2682 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 065402FC25DE6A3C8CF3055B064CBCA4 /* BGRSLoupeLayer.m */; };
-		1103B6825DF66EBF8E65AAA32CAFE29E /* BitmapCropManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = D70E02CC15BC25704AF78A20830AF842 /* BitmapCropManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		13CF24549FA862851C8ADF5CFE22FEFD /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		152E0647E7A42CEC00F710C1C56DCDFC /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = D3ED577556AC626D3B645FF2BD93CA40 /* BitmapScaleManipulator.m */; };
-		1689BC825D5F496E08806A0944FF608C /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C454DE254A74312FA7EEACD0B37DD0 /* BitmapContextManipulator.m */; };
-		19072A7E6E8E8F02EBACC445807D221B /* BitmapContextManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6963D7F9AC663964CE2565B594CE821D /* BitmapContextManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1BE51303FF3E19992E6E4D23BC387016 /* RSSelectionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 0095CD685399F8DFFA27D72C7561659A /* RSSelectionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4C2B7E07259DD5B60C4FE6A8A70C6F /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		27045CD9D356CEF7BC9A51061DF0C64E /* RSSelectionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 729453F92745358273EDD885EF061350 /* RSSelectionLayer.m */; };
-		27F1DAFCBA43BFC893AAB8D70B811B04 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2BECFB6D3C9606DEAA1ACA4B96E57EEF /* UIImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 089BF47F96B2F97F6D0D3BC5B69F68C3 /* UIImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2FBE88AB6732B2F224FCEA7F490757EB /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		357FF480909B78B01A5BBA13263779DE /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3AD222A50285FF5EE257494D0CC7890C /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0147C1A470D76C06EA493722F56B1B57 /* BitmapCropManipulator.m */; };
-		4548EEC7D799F8D8BED0F0FC52D003FE /* Pods-libColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B401E0049C7CC9C227B48FD89990BBC /* Pods-libColorPicker_Example-dummy.m */; };
-		46A6365F30FBA06E85B88D8811F468CB /* NSImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = B4895435CE7482D60BB449DC3F026B01 /* NSImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47234171932DDD6DB33BAEAD8BE3295D /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7250232BF6998FF88086E2089571FB5C /* CGContextCreator.m */; };
-		4B0540081BAC1927C4B284602E4A0792 /* BitmapRotationManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = A4C30A4537637BDA26E0EEB8AA5CB748 /* BitmapRotationManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4D60E4B1D26EAF340DDECFB06630F317 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EBFA74E3458E331DCB4392CE61BE171 /* OSCommonImage.m */; };
-		4FDED973490EB6A8908D2671154FDB89 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5157BCDB372CC91B65CED2CACFA5D7DC /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 63546ADDFFAB3E33840430D9646F280B /* ANImageBitmapRep.m */; };
-		5549B48C59A30E066FDA3055C389343E /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E5F0C2826B88BD086E046FE36D0D02 /* CGImageContainer.m */; };
-		556EFEEA57BF8167F007B4ED6E9006C1 /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8EFC12863115700802BFE960BEF67B /* BitmapRotationManipulator.m */; };
-		57DFE313C53DA21975AD94A81F166BD1 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */; };
-		5E4E4B214D12086AC4208E95167EC73A /* Pods-libColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153C335760BED033E86E2B0C1BFC604D /* Pods-libColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62449CA0C38A2DC85B0982B25394E90E /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */; };
-		626B143296611EBC98F20F738CFB4AA8 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
-		67843D6939DCFB92F851C88AD853EB8B /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6EE8A3D7FB2793518D2CD4024BCA1812 /* BGRSLoupeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6B5B82EEBE2D86FA8D6F92A24250A1 /* BGRSLoupeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		72730EE0A25330711ED6CC41203C5726 /* libColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BF307EBB5466A6D9F2313BE815E9BB /* libColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */; };
-		7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		75C5B6C21E0CC4898AE48E52DDA91375 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */; };
-		79F3B8729AF65224C52E7751ACCEBCE1 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D8DCDD19DF0E433C6185AE4BEC46107 /* UIImage+ANImageBitmapRep.m */; };
-		7D62ACD58E82F4B32DC4D2D6C07EEE12 /* BitmapDrawManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EBCC83F1E4F2422B3B608F64911A0AA /* BitmapDrawManipulator.m */; };
-		822A54CBF3C395A4B6A07EB7B8A69630 /* libColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EC1ADAED8C081E5ABA6F2C018D85025 /* libColorPicker-dummy.m */; };
-		86522DA156214537D3CE3EAE749528CB /* RSColorFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 99291FDFC0EBD33EDD4BC59AF2EBD282 /* RSColorFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		896898D0F2006260D3B84BA3A46197D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		8B87AD549120DC745D0F0DE013527973 /* RSGenerateOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DD37FF44ABDD0935BACBF2CEBF11966 /* RSGenerateOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C496A090195D5EEA118A8A6ACDD78C /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = B8656424A3429B1A46C827E3774AB3FD /* NSImage+ANImageBitmapRep.m */; };
-		9269E802D3E20C338BDDFF5DA07029E5 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94C1561BC701BB0EA90A7DD26B5D2D4F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9961CA09AD871BA6135B2CBA7675BDCF /* RSColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = C684F76DE32062E9BDD3260084C04E65 /* RSColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DA747E62FE9077D4ACFF11C07A7034F /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E939EE066F6D537E2C412EE59B95ED /* RSBrightnessSlider.m */; };
-		A412E7C718C0F1C79FE454A98C7CC186 /* RSGenerateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 323B212432FA16B9CA3256D4F805525C /* RSGenerateOperation.m */; };
-		A7E4A3200D1FBE2D664E87DE0747FA0E /* RSBrightnessSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AC38A3144694E14DD6725803646FF64 /* RSBrightnessSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A98413C6607F08050A4E1E4D4DBADD94 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 08E2497430E0DD07D19074D6AB1F8986 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC6A47651CAF5F9896CDEC82840F5194 /* RSOpacitySlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B71C8A9674FFFFD616A9C4AC03D43B /* RSOpacitySlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9D138592743C6138E5EEBDCF679053 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */; };
-		BD761894E2E77C01327913EC5AAF59F9 /* BitmapContextRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 767B749CD5EDA9AD6C0E8565BA932CB0 /* BitmapContextRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2BDF551C7105AAC8111AC22E3B24775 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
-		C5305C30EF88CDEFD1BFDE547F0B0932 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C58C96ECEB8DA48FD48BF98210048834 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */; };
-		C8B2C44773021FE52AE8D492B90F5787 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CA874A9F56696FF085CA57B70FD8D1A9 /* RSColorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = D15F42A881A39D1D64FAD98DB13F04E2 /* RSColorFunctions.m */; };
-		D0FE394E692A30796B0B8260680542A7 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D892D5CB8E1711B1FE8FCA30D5D1713F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */; };
-		D92F2DC380D9D2D1980B869F57C03361 /* RSColorPickerState.m in Sources */ = {isa = PBXBuildFile; fileRef = B1D007DDD7C5243773501453E5E340DE /* RSColorPickerState.m */; };
-		DADF5150B678D8FAB699D940DED2C71D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DDA0C9910C0F791259FCB4E0E85F3DBD /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D05AC0D83EDD307DE6810AB1A545195C /* Masonry-dummy.m */; };
-		DDC5DE76CA3AC9073FB5C6BFBA026AFE /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */; };
-		DE6FCE4FEA59582064C9CE8DD718A5BD /* OSCommonImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 64FB8413B5A287E3801BE75FD0F8D367 /* OSCommonImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2A7F8565462C2FD09BC146B85B6F357 /* BitmapScaleManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 58C0578FBACBF5164F349348AF20B3EE /* BitmapScaleManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2CB84164CBA765FA1C23244FCD00559 /* CGContextCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = B01EA6FBF6B7A1C25D761541F14B4D27 /* CGContextCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E463A85D154C8CFA4DD577F1CCB14E0D /* ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = FA818A06B860D104BA022DD6EDA4F468 /* ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F36530E69F165941E19746D2C6B0B139 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 9132AF2009133183DD37A875BD02D491 /* BitmapContextRep.m */; };
-		F50920C2026473CF11E5C635750F12EE /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F5C9CAD634744DFE373DA45B0CD1806C /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */; };
-		F818538C57ED712F3C3A8C3D977CDD54 /* CGImageContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B90FF5119777E52A79ACBC9B0D9B4DC6 /* CGImageContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FBDDC535BC3736896FD61A014BCE8C6B /* BitmapDrawManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B3725B2B6DB5B9557B6F21519B71F0 /* BitmapDrawManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01787AAF21D6EF9C49CCF33DAA3E9409 /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = C6471C7F0A13151B3FFE839EFA508BFA /* BitmapCropManipulator.m */; };
+		05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08A72D5ABA02F615F4F1E063FEA30BE9 /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 628D1C44A627AAEC4EE3B337A9A2364F /* OSCommonImage.m */; };
+		0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */; };
+		098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */; };
+		0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		178E9AEF3A7AE531EA8F8109FBBF4833 /* RSGenerateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D3886F45B8BC5EC2D77A405A3301D9AD /* RSGenerateOperation.m */; };
+		19502FB205C38B86550860C43088086D /* BitmapDrawManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDF855B56692C531D359825EB5A6409 /* BitmapDrawManipulator.m */; };
+		1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */; };
+		1B332250E35C827DB3AE0AFB3407082D /* CGImageContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 055A7A290A8FDBB24AEC10DBA72014A8 /* CGImageContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1EF578D2C46CCCE0BCFC20FD56B57C1F /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = BE11DE68E89574A0D9A1D8001356EF99 /* NSImage+ANImageBitmapRep.m */; };
+		280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		28E64FA9A6A1A2DA6C2FB8B1F168C0AF /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE6BA3FAE460C896D572B4342BA4134 /* CGImageContainer.m */; };
+		2920BC4C2BF22C21FF1CF1C9318D0DF2 /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF112171C87F825DCC210EB8945A5DA /* UIImage+ANImageBitmapRep.m */; };
+		297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */; };
+		29B9210C319790326772296CC5A9B365 /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0133F303C073D4B4FAFF1DDD13E9E8 /* BitmapContextRep.m */; };
+		3400A1314201C5117D02C9AB1BB0B77A /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 7646F28A6615DDD483F8646C2760D32A /* BitmapScaleManipulator.m */; };
+		346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C7003E1A91E5C98C0B809D6DC90D420 /* OSCommonImage.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFEDE516D1C9EF9A075B3EF7840DBDE /* OSCommonImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DA483402D4C8B10D993F316356822C2 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = 35B4FC917E7FF9F0DC2AE6AA3996BAD2 /* CGContextCreator.m */; };
+		3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EAB9AAEADBF6D15C69218E04CB7C731 /* BitmapScaleManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BB2470F8C92E3E887CA194299121B90 /* BitmapScaleManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4D8984BD26162DF2546D8869AF01D075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		4EB86D83FB301B4BDDA8A92E3380C1F8 /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 329624FF34207B5700F0924DA47DC20E /* ANImageBitmapRep.m */; };
+		54879452E427C1CF96DA7D5AAB4181E6 /* LWColorPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CE88B889EB8241FFDA4CF75CFBCF253 /* LWColorPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56245A70FC6B3BA2B4D3B1A8C3AFD7D8 /* RSGenerateOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = C6E4831FB8CE01B1BE726DF6F47F46D1 /* RSGenerateOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		573EECF5712BEF6C02B902BC5F09B853 /* RSColorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8837C8EA044B8C563AF42C9B9A599E6 /* RSColorFunctions.m */; };
+		57EE002D5366930EC6F64F8C05C02D7B /* ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 88189DD965AC73172AF91F28C0CA47E7 /* ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		627A43B7691FB21B58255B58F8340BF8 /* RSOpacitySlider.h in Headers */ = {isa = PBXBuildFile; fileRef = F509DC79259EDF19463248C8F9D4AD4C /* RSOpacitySlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EA51E05CBBFF2F8A10066E921A28927 /* NSImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 14D308B711C4A7FA1A9769BB9985975A /* NSImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FA93CC03FA310947887B4AC78EC85F8 /* RSColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A8604CD77C02563CD362FEC9833DE82 /* RSColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76DFBCB8EBE9503B1A3289582D71AB15 /* RSSelectionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = F91EDD6C65C157B6460E57C514EC2EB9 /* RSSelectionLayer.m */; };
+		7831E8F002E1CEB5477A2A21704F33B5 /* RSBrightnessSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B3A8D93A233CF1CB9A1C6E09D225F33 /* RSBrightnessSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */; };
+		7A32FF83B83DAC09901EB6CAA11F52A9 /* RSColorFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1F425F4F40855FA423D1060CB093A7 /* RSColorFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */; };
+		81EB7828F9872C548BBEB252D45C366D /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 663805D846A6EBA7371D7988F4170258 /* RSBrightnessSlider.m */; };
+		8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */; };
+		8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92A1AA479F05D62AA781BC726754EFDC /* BitmapRotationManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 26BD3CE5A79794232CA7C3FC9B5E98F7 /* BitmapRotationManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B6F57EFBE1AD0D24FDC909545675DCC /* BitmapCropManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = C2A0C9E35C8C5E52D2E625EA076304FD /* BitmapCropManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CE3AB6D3749ABD5F7A520299E67FEE8 /* CGContextCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB27C89FCDCE00ADBA95D4902A787FD /* CGContextCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D855973172A25DB686301936AA35903 /* BGRSLoupeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A760E7E741C7E99474B62FAE61FBAEFE /* BGRSLoupeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */; };
+		A3638416DE63515CCECEB434F335FCC0 /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C445B5D4AF4600B7CA2D8E0ADA04C9FA /* BGRSLoupeLayer.m */; };
+		B34F92C9B6FF934B6EE929F627BFA4DA /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E564474178609D4D50D346A758C15747 /* RSColorPickerView.m */; };
+		B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */; };
+		BC3A68C13F54013363815DD51A1F449E /* Pods-LWColorPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B1255D262187D656847123806C33B4 /* Pods-LWColorPicker_Example-dummy.m */; };
+		BD52380D8C51E92ED7159591E7DCFB80 /* BitmapDrawManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3288C72CE0B55960D39A554292594963 /* BitmapDrawManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE90E4E6C7E91720F7B01FAC34C833B4 /* BitmapContextManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C1406600CFA52FB4271CFC93F3EEA15 /* BitmapContextManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		C3C0A1C4A43EE873384F63079DC4D4D4 /* RSSelectionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = DE4AA80D504B7DEA8B23CF5C3A54941F /* RSSelectionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		E1BF6D7B12F2F45A6665F585BB8B76DE /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = FB93357FD8FA73C47424B466228FE313 /* BitmapRotationManipulator.m */; };
+		E485AF12EEAEDE02876FF6D22D13FDDF /* LWColorPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34E76BE1EC7A5AE829365E1CDC8EC02B /* LWColorPicker-dummy.m */; };
+		E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E5C24B310CAA504215AE24C72305CE4F /* Pods-LWColorPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E2823F48F0DA1CB1A6F82FE0F4B7475 /* Pods-LWColorPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E69570216410BC126063993A78930D26 /* RSColorPickerState.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E6FDC51B72BAFAAE7477332524147C /* RSColorPickerState.m */; };
+		E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */; };
+		EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED4E5CAC526C1B9B3D724FA4E10166A2 /* UIImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 489B97FD8807F461CAABB10E5AA7972F /* UIImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFCAB5E611A7F922B884081EDB88E861 /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 80DFE036D9200CEECEC7E850483FAE12 /* BitmapContextManipulator.m */; };
+		F22E5B2CF6FC9D3CA86800127C41CA72 /* RSColorPickerState.h in Headers */ = {isa = PBXBuildFile; fileRef = 36C8499CDFD96EEDA08D444AFADFACD1 /* RSColorPickerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F352E6C154B52A177F6D79878F2D3590 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FBE4E6B2F0E5B54C30F5228150532A71 /* RSOpacitySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 81CA53A9E08AB03B7A7F46666156171B /* RSOpacitySlider.m */; };
+		FE580F0CBD91D6801FEF8BF19447D2FA /* BitmapContextRep.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F9BEEC4389E710405FB42FB1335DBEB /* BitmapContextRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2C0020FFD4B2BB5D5B680E0D9D3184BC /* PBXContainerItemProxy */ = {
+		24FD51D095F1BD76740D89ABC7F95D2A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 64908377FC47CBE2E0EA0FA3CC30D3C1;
-			remoteInfo = Masonry;
+			remoteGlobalIDString = FD76C59A1901E3A548F1210CBE7F1FB1;
+			remoteInfo = LWColorPicker;
 		};
-		384D90FEF5D9FBE31254656C4FD24846 /* PBXContainerItemProxy */ = {
+		9EF6704B9D9C145E3004BC592A83F9FB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E4B7F9811CD3B15C0D63CEF10C6EAF6;
-			remoteInfo = libColorPicker;
+			remoteGlobalIDString = 55AF53E6C77A10ED4985E04D74A8878E;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0095CD685399F8DFFA27D72C7561659A /* RSSelectionLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSelectionLayer.h; path = libColorPicker/Classes/RSSelectionLayer.h; sourceTree = "<group>"; };
-		0147C1A470D76C06EA493722F56B1B57 /* BitmapCropManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
-		01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
-		065402FC25DE6A3C8CF3055B064CBCA4 /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGRSLoupeLayer.m; path = libColorPicker/Classes/BGRSLoupeLayer.m; sourceTree = "<group>"; };
-		089BF47F96B2F97F6D0D3BC5B69F68C3 /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
-		08E2497430E0DD07D19074D6AB1F8986 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
-		0F3A8E88691DB727C322D212CF6272A5 /* libColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = libColorPicker.framework; path = libColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		134A34F5A650DBB5E0F4C1AF1C9E0398 /* Pods-libColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		153C335760BED033E86E2B0C1BFC604D /* Pods-libColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-libColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
-		1675BB0FA0C8CF5A5244BDEB2B0CE8CC /* Pods-libColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-libColorPicker_Example.modulemap"; sourceTree = "<group>"; };
-		1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
-		1D8DCDD19DF0E433C6185AE4BEC46107 /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
-		21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
-		24390EFD555DD124430DFF9724065945 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		24FBEAC92CC523B771E8FB59F849D496 /* Pods-libColorPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-libColorPicker_Example-resources.sh"; sourceTree = "<group>"; };
-		2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
-		2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
-		3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
-		313590D50AC5F8A05F06277A53F20E3F /* RSColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerView.m; path = libColorPicker/Classes/RSColorPickerView.m; sourceTree = "<group>"; };
-		31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
-		323B212432FA16B9CA3256D4F805525C /* RSGenerateOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSGenerateOperation.m; path = libColorPicker/Classes/RSGenerateOperation.m; sourceTree = "<group>"; };
-		33EC3D1DA4A63564C09DCBE18472A05B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3AC38A3144694E14DD6725803646FF64 /* RSBrightnessSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSBrightnessSlider.h; path = libColorPicker/Classes/RSBrightnessSlider.h; sourceTree = "<group>"; };
-		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		44B3725B2B6DB5B9557B6F21519B71F0 /* BitmapDrawManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapDrawManipulator.h; sourceTree = "<group>"; };
-		46A98FB4B4940E0650AF5B7322526F1B /* libColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libColorPicker-prefix.pch"; sourceTree = "<group>"; };
-		4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
-		53B71C8A9674FFFFD616A9C4AC03D43B /* RSOpacitySlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSOpacitySlider.h; path = libColorPicker/Classes/RSOpacitySlider.h; sourceTree = "<group>"; };
-		58C0578FBACBF5164F349348AF20B3EE /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
-		58ED898519A0D4BAC4721B51B3F90CF5 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
-		5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		6014A9B818718638EB4D72ADF7FF0813 /* libColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = libColorPicker.xcconfig; sourceTree = "<group>"; };
-		6151ECE5B4A3BED17DD01B09750E48BD /* RSColorPickerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorPickerState.h; path = libColorPicker/Classes/RSColorPickerState.h; sourceTree = "<group>"; };
-		63546ADDFFAB3E33840430D9646F280B /* ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
-		63B21C3B0869A48D5FD6FC4FA259C2F9 /* Pods-libColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-libColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		64FB8413B5A287E3801BE75FD0F8D367 /* OSCommonImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
-		68D004FF5BAA6FFA8DA055365EE8E8FA /* RSOpacitySlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSOpacitySlider.m; path = libColorPicker/Classes/RSOpacitySlider.m; sourceTree = "<group>"; };
-		6963D7F9AC663964CE2565B594CE821D /* BitmapContextManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
-		6BC0E9F6C8385544BBE08B0C282CAA6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		6DD37FF44ABDD0935BACBF2CEBF11966 /* RSGenerateOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSGenerateOperation.h; path = libColorPicker/Classes/RSGenerateOperation.h; sourceTree = "<group>"; };
-		6EBCC83F1E4F2422B3B608F64911A0AA /* BitmapDrawManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapDrawManipulator.m; sourceTree = "<group>"; };
-		71952D6B483737C09325D4AB561EE3AC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7250232BF6998FF88086E2089571FB5C /* CGContextCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
-		729453F92745358273EDD885EF061350 /* RSSelectionLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSelectionLayer.m; path = libColorPicker/Classes/RSSelectionLayer.m; sourceTree = "<group>"; };
-		767B749CD5EDA9AD6C0E8565BA932CB0 /* BitmapContextRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
-		78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		7EC1ADAED8C081E5ABA6F2C018D85025 /* libColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "libColorPicker-dummy.m"; sourceTree = "<group>"; };
-		84319B87C478618383CE2AAF88FA25DE /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		8E6B5B82EEBE2D86FA8D6F92A24250A1 /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGRSLoupeLayer.h; path = libColorPicker/Classes/BGRSLoupeLayer.h; sourceTree = "<group>"; };
-		8EBFA74E3458E331DCB4392CE61BE171 /* OSCommonImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
-		8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
-		9132AF2009133183DD37A875BD02D491 /* BitmapContextRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
-		99291FDFC0EBD33EDD4BC59AF2EBD282 /* RSColorFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorFunctions.h; path = libColorPicker/Classes/RSColorFunctions.h; sourceTree = "<group>"; };
-		9B401E0049C7CC9C227B48FD89990BBC /* Pods-libColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-libColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
-		9C724AE5F8517A8F6464C202BA9B1EDE /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		A4C30A4537637BDA26E0EEB8AA5CB748 /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
-		A7E5F0C2826B88BD086E046FE36D0D02 /* CGImageContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
-		A8BE2DEF7261CE1ECA5739E233FA23FA /* Pods-libColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A9C454DE254A74312FA7EEACD0B37DD0 /* BitmapContextManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
-		AB8EFC12863115700802BFE960BEF67B /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
-		B01EA6FBF6B7A1C25D761541F14B4D27 /* CGContextCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
-		B1D007DDD7C5243773501453E5E340DE /* RSColorPickerState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerState.m; path = libColorPicker/Classes/RSColorPickerState.m; sourceTree = "<group>"; };
-		B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
-		B4895435CE7482D60BB449DC3F026B01 /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
-		B8656424A3429B1A46C827E3774AB3FD /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
-		B90FF5119777E52A79ACBC9B0D9B4DC6 /* CGImageContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
-		BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
-		BCE9D53157F94DDF449853CA0E1D85DA /* Pods-libColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-libColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
-		C2E939EE066F6D537E2C412EE59B95ED /* RSBrightnessSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSBrightnessSlider.m; path = libColorPicker/Classes/RSBrightnessSlider.m; sourceTree = "<group>"; };
-		C684F76DE32062E9BDD3260084C04E65 /* RSColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorPickerView.h; path = libColorPicker/Classes/RSColorPickerView.h; sourceTree = "<group>"; };
-		C98D4AB470C07EFB993EDDD13F033D89 /* Pods-libColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-libColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		D05AC0D83EDD307DE6810AB1A545195C /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		D15F42A881A39D1D64FAD98DB13F04E2 /* RSColorFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorFunctions.m; path = libColorPicker/Classes/RSColorFunctions.m; sourceTree = "<group>"; };
-		D3ED577556AC626D3B645FF2BD93CA40 /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
-		D6F3BC641490A9929EB107A375FEC040 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		D70E02CC15BC25704AF78A20830AF842 /* BitmapCropManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
-		D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
-		DB03BB6DDA0C65F9D05C7D75423285F0 /* libColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = libColorPicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		E5BF307EBB5466A6D9F2313BE815E9BB /* libColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "libColorPicker-umbrella.h"; sourceTree = "<group>"; };
-		EC1059507DC4CD16959445F537F976F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
-		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		EED4302D3F8F8D80ED253F92859E5D54 /* libColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = libColorPicker.modulemap; sourceTree = "<group>"; };
-		F0AB8817EDB7F05A7A01733D7A80003F /* Pods_libColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_libColorPicker_Example.framework; path = "Pods-libColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
-		FA818A06B860D104BA022DD6EDA4F468 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
-		FEC30E78D0B1F927259245F7F80E1EF4 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		01E56B47B49E873B490A71FBBC283C57 /* LWColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LWColorPicker.framework; path = LWColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Masonry-Info.plist"; sourceTree = "<group>"; };
+		055A7A290A8FDBB24AEC10DBA72014A8 /* CGImageContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		14D308B711C4A7FA1A9769BB9985975A /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		164572B7BF569E22C21098920478B363 /* Pods-LWColorPicker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWColorPicker_Example-Info.plist"; sourceTree = "<group>"; };
+		1BB2470F8C92E3E887CA194299121B90 /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
+		1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1FFED36A657123030ABB700256D73F15 /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26BD3CE5A79794232CA7C3FC9B5E98F7 /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
+		2F383A816F30D2D0F29FB8A04A29324A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3288C72CE0B55960D39A554292594963 /* BitmapDrawManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapDrawManipulator.h; sourceTree = "<group>"; };
+		329624FF34207B5700F0924DA47DC20E /* ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		34E76BE1EC7A5AE829365E1CDC8EC02B /* LWColorPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LWColorPicker-dummy.m"; sourceTree = "<group>"; };
+		35B4FC917E7FF9F0DC2AE6AA3996BAD2 /* CGContextCreator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		36C8499CDFD96EEDA08D444AFADFACD1 /* RSColorPickerState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorPickerState.h; path = LWColorPicker/Classes/RSColorPickerState.h; sourceTree = "<group>"; };
+		36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		3B1F425F4F40855FA423D1060CB093A7 /* RSColorFunctions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorFunctions.h; path = LWColorPicker/Classes/RSColorFunctions.h; sourceTree = "<group>"; };
+		3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		3C0D04B2252728FD37578FAE7364C855 /* LWColorPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWColorPicker-prefix.pch"; sourceTree = "<group>"; };
+		3C501401DF4ACA0B91E3AB29E5BDF9A8 /* LWColorPicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LWColorPicker.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3D0133F303C073D4B4FAFF1DDD13E9E8 /* BitmapContextRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		4011999AFDF0728E02C242CE3DA791F5 /* Pods-LWColorPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LWColorPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		45E6FDC51B72BAFAAE7477332524147C /* RSColorPickerState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerState.m; path = LWColorPicker/Classes/RSColorPickerState.m; sourceTree = "<group>"; };
+		489B97FD8807F461CAABB10E5AA7972F /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		4AE6BA3FAE460C896D572B4342BA4134 /* CGImageContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		4CF112171C87F825DCC210EB8945A5DA /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		5A8604CD77C02563CD362FEC9833DE82 /* RSColorPickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSColorPickerView.h; path = LWColorPicker/Classes/RSColorPickerView.h; sourceTree = "<group>"; };
+		5AB27C89FCDCE00ADBA95D4902A787FD /* CGContextCreator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		5E2823F48F0DA1CB1A6F82FE0F4B7475 /* Pods-LWColorPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LWColorPicker_Example-umbrella.h"; sourceTree = "<group>"; };
+		5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		628D1C44A627AAEC4EE3B337A9A2364F /* OSCommonImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
+		663805D846A6EBA7371D7988F4170258 /* RSBrightnessSlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSBrightnessSlider.m; path = LWColorPicker/Classes/RSBrightnessSlider.m; sourceTree = "<group>"; };
+		7646F28A6615DDD483F8646C2760D32A /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
+		7CE88B889EB8241FFDA4CF75CFBCF253 /* LWColorPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LWColorPicker-umbrella.h"; sourceTree = "<group>"; };
+		7DDF97792C470B10F24B400F82F8604C /* LWColorPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LWColorPicker.xcconfig; sourceTree = "<group>"; };
+		80DFE036D9200CEECEC7E850483FAE12 /* BitmapContextManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
+		81CA53A9E08AB03B7A7F46666156171B /* RSOpacitySlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSOpacitySlider.m; path = LWColorPicker/Classes/RSOpacitySlider.m; sourceTree = "<group>"; };
+		86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		88189DD965AC73172AF91F28C0CA47E7 /* ANImageBitmapRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		93E231592CC7691E443776DE7D12294B /* LWColorPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LWColorPicker.modulemap; sourceTree = "<group>"; };
+		961BF41AF915969880DF25C919DC9CBF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9B3A8D93A233CF1CB9A1C6E09D225F33 /* RSBrightnessSlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSBrightnessSlider.h; path = LWColorPicker/Classes/RSBrightnessSlider.h; sourceTree = "<group>"; };
+		9C1406600CFA52FB4271CFC93F3EEA15 /* BitmapContextManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
+		9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DD019443B16CBCAC45FFCD527BF23E5 /* Pods-LWColorPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWColorPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9F9BEEC4389E710405FB42FB1335DBEB /* BitmapContextRep.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		A760E7E741C7E99474B62FAE61FBAEFE /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BGRSLoupeLayer.h; path = LWColorPicker/Classes/BGRSLoupeLayer.h; sourceTree = "<group>"; };
+		ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		B33AB2406856F160A510E926D0522767 /* Pods-LWColorPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LWColorPicker_Example.modulemap"; sourceTree = "<group>"; };
+		B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		BBB5031603B77A680A074246E2206DF7 /* LWColorPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LWColorPicker-Info.plist"; sourceTree = "<group>"; };
+		BE11DE68E89574A0D9A1D8001356EF99 /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		C2A0C9E35C8C5E52D2E625EA076304FD /* BitmapCropManipulator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
+		C445B5D4AF4600B7CA2D8E0ADA04C9FA /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BGRSLoupeLayer.m; path = LWColorPicker/Classes/BGRSLoupeLayer.m; sourceTree = "<group>"; };
+		C6471C7F0A13151B3FFE839EFA508BFA /* BitmapCropManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
+		C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C6E4831FB8CE01B1BE726DF6F47F46D1 /* RSGenerateOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSGenerateOperation.h; path = LWColorPicker/Classes/RSGenerateOperation.h; sourceTree = "<group>"; };
+		D0B1255D262187D656847123806C33B4 /* Pods-LWColorPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LWColorPicker_Example-dummy.m"; sourceTree = "<group>"; };
+		D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		D3886F45B8BC5EC2D77A405A3301D9AD /* RSGenerateOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSGenerateOperation.m; path = LWColorPicker/Classes/RSGenerateOperation.m; sourceTree = "<group>"; };
+		DA1A34449206FDB91D29D4F6F7971982 /* Pods-LWColorPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LWColorPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DBFEDE516D1C9EF9A075B3EF7840DBDE /* OSCommonImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
+		DE4AA80D504B7DEA8B23CF5C3A54941F /* RSSelectionLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSSelectionLayer.h; path = LWColorPicker/Classes/RSSelectionLayer.h; sourceTree = "<group>"; };
+		DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		DFDF855B56692C531D359825EB5A6409 /* BitmapDrawManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapDrawManipulator.m; sourceTree = "<group>"; };
+		E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		E564474178609D4D50D346A758C15747 /* RSColorPickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorPickerView.m; path = LWColorPicker/Classes/RSColorPickerView.m; sourceTree = "<group>"; };
+		E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		E6CA36E9F5D907B0F3D3E8A449F19330 /* Pods_LWColorPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LWColorPicker_Example.framework; path = "Pods-LWColorPicker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEE618A31BBF8D30875AAFF84A6FC0D /* Pods-LWColorPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LWColorPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
+		F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		F509DC79259EDF19463248C8F9D4AD4C /* RSOpacitySlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RSOpacitySlider.h; path = LWColorPicker/Classes/RSOpacitySlider.h; sourceTree = "<group>"; };
+		F555B9D5C7AACB643C154A02697E29A1 /* Pods-LWColorPicker_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LWColorPicker_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8837C8EA044B8C563AF42C9B9A599E6 /* RSColorFunctions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSColorFunctions.m; path = LWColorPicker/Classes/RSColorFunctions.m; sourceTree = "<group>"; };
+		F91EDD6C65C157B6460E57C514EC2EB9 /* RSSelectionLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RSSelectionLayer.m; path = LWColorPicker/Classes/RSSelectionLayer.m; sourceTree = "<group>"; };
+		FB93357FD8FA73C47424B466228FE313 /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
+		FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2BC0FCD71CDCD76C22169268DDD921BD /* Frameworks */ = {
+		0AB5B62E1B858C252D85124F08EFD844 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				896898D0F2006260D3B84BA3A46197D8 /* Foundation.framework in Frameworks */,
+				4D8984BD26162DF2546D8869AF01D075 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3C1E3A95E883FDFBDFCB23330263203F /* Frameworks */ = {
+		5E047F76604659BF1B2099B2C412AC93 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7390990ADCBF9AB82DCEC400A01D6F4A /* Foundation.framework in Frameworks */,
-				63C22A97B892045474C99EBCF60FDFB5 /* UIKit.framework in Frameworks */,
+				E51F496BDC6ACADE04FDA059C6CB2342 /* Foundation.framework in Frameworks */,
+				CE93C54413259B4AC3683B6EB874D466 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6F144B38382AD64F02DB82A6A7F2BB44 /* Frameworks */ = {
+		7F2C103419D40480B473C3848CFF755B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2BDF551C7105AAC8111AC22E3B24775 /* Foundation.framework in Frameworks */,
+				F352E6C154B52A177F6D79878F2D3590 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0294AAE7FFB0A31D5C25025697F4A81C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				EC1059507DC4CD16959445F537F976F7 /* Info.plist */,
-				EED4302D3F8F8D80ED253F92859E5D54 /* libColorPicker.modulemap */,
-				6014A9B818718638EB4D72ADF7FF0813 /* libColorPicker.xcconfig */,
-				7EC1ADAED8C081E5ABA6F2C018D85025 /* libColorPicker-dummy.m */,
-				46A98FB4B4940E0650AF5B7322526F1B /* libColorPicker-prefix.pch */,
-				E5BF307EBB5466A6D9F2313BE815E9BB /* libColorPicker-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/libColorPicker";
-			sourceTree = "<group>";
-		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		254B655ACC41CB34900C775A6116095C /* Compatibility */ = {
+		601984BE3C5F7FAE831A6A12CF6A11FE /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B4895435CE7482D60BB449DC3F026B01 /* NSImage+ANImageBitmapRep.h */,
-				B8656424A3429B1A46C827E3774AB3FD /* NSImage+ANImageBitmapRep.m */,
-				64FB8413B5A287E3801BE75FD0F8D367 /* OSCommonImage.h */,
-				8EBFA74E3458E331DCB4392CE61BE171 /* OSCommonImage.m */,
-				089BF47F96B2F97F6D0D3BC5B69F68C3 /* UIImage+ANImageBitmapRep.h */,
-				1D8DCDD19DF0E433C6185AE4BEC46107 /* UIImage+ANImageBitmapRep.m */,
+				F3C70F3D710363FB7F9AC71797EDD0B4 /* LWColorPicker */,
 			);
-			name = Compatibility;
-			path = Compatibility;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		2BC5A828CB425FBC6EE0327D62F86BCA /* CoreGraphics */ = {
+		641727D7EBF7D099C436C5885417E360 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
-				B01EA6FBF6B7A1C25D761541F14B4D27 /* CGContextCreator.h */,
-				7250232BF6998FF88086E2089571FB5C /* CGContextCreator.m */,
-				B90FF5119777E52A79ACBC9B0D9B4DC6 /* CGImageContainer.h */,
-				A7E5F0C2826B88BD086E046FE36D0D02 /* CGImageContainer.m */,
-			);
-			name = CoreGraphics;
-			path = CoreGraphics;
-			sourceTree = "<group>";
-		};
-		2CDBF52CCE1176F06D47337F767C90FE /* Pods-libColorPicker_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6BC0E9F6C8385544BBE08B0C282CAA6B /* Info.plist */,
-				1675BB0FA0C8CF5A5244BDEB2B0CE8CC /* Pods-libColorPicker_Example.modulemap */,
-				63B21C3B0869A48D5FD6FC4FA259C2F9 /* Pods-libColorPicker_Example-acknowledgements.markdown */,
-				C98D4AB470C07EFB993EDDD13F033D89 /* Pods-libColorPicker_Example-acknowledgements.plist */,
-				9B401E0049C7CC9C227B48FD89990BBC /* Pods-libColorPicker_Example-dummy.m */,
-				134A34F5A650DBB5E0F4C1AF1C9E0398 /* Pods-libColorPicker_Example-frameworks.sh */,
-				24FBEAC92CC523B771E8FB59F849D496 /* Pods-libColorPicker_Example-resources.sh */,
-				153C335760BED033E86E2B0C1BFC604D /* Pods-libColorPicker_Example-umbrella.h */,
-				BCE9D53157F94DDF449853CA0E1D85DA /* Pods-libColorPicker_Example.debug.xcconfig */,
-				A8BE2DEF7261CE1ECA5739E233FA23FA /* Pods-libColorPicker_Example.release.xcconfig */,
-			);
-			name = "Pods-libColorPicker_Example";
-			path = "Target Support Files/Pods-libColorPicker_Example";
-			sourceTree = "<group>";
-		};
-		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		803B98CAB0FC20699018B75050D430B7 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0F3A8E88691DB727C322D212CF6272A5 /* libColorPicker.framework */,
-				84319B87C478618383CE2AAF88FA25DE /* Masonry.framework */,
-				F0AB8817EDB7F05A7A01733D7A80003F /* Pods_libColorPicker_Example.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		8801E2943B3BF7015C2589C48EB64C65 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				DB03BB6DDA0C65F9D05C7D75423285F0 /* libColorPicker.podspec */,
-				D6F3BC641490A9929EB107A375FEC040 /* LICENSE */,
-				33EC3D1DA4A63564C09DCBE18472A05B /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		89091CC161939FEB338E13B091FC2328 /* ANImageBitmapRep */ = {
-			isa = PBXGroup;
-			children = (
-				FA818A06B860D104BA022DD6EDA4F468 /* ANImageBitmapRep.h */,
-				63546ADDFFAB3E33840430D9646F280B /* ANImageBitmapRep.m */,
-				767B749CD5EDA9AD6C0E8565BA932CB0 /* BitmapContextRep.h */,
-				9132AF2009133183DD37A875BD02D491 /* BitmapContextRep.m */,
-				254B655ACC41CB34900C775A6116095C /* Compatibility */,
-				2BC5A828CB425FBC6EE0327D62F86BCA /* CoreGraphics */,
-				FDED1152D2BDFBAF34116B2F44A32A1F /* Manipulators */,
-			);
-			name = ANImageBitmapRep;
-			path = libColorPicker/Classes/ANImageBitmapRep;
-			sourceTree = "<group>";
-		};
-		8E50BF0E4E86F38E1773098A5EDB39F2 /* Masonry */ = {
-			isa = PBXGroup;
-			children = (
-				3015FEEEE50C4FE51F845C11D4154A84 /* MASCompositeConstraint.h */,
-				21C55901E770E7D3DF78180E0F7B2F4D /* MASCompositeConstraint.m */,
-				EC6F744A3DA1C0EE12D10CB82411B05E /* MASConstraint.h */,
-				31BA2CDBF46DCD8CA514150C57E64824 /* MASConstraint.m */,
-				B2E90708D5E58877A06F2A402BF8FC16 /* MASConstraint+Private.h */,
-				BA1930EA5A0D0E7DC87664879DB6D032 /* MASConstraintMaker.h */,
-				D98729D388525C1741E1AF5083C0B910 /* MASConstraintMaker.m */,
-				A0EE7F78B3BD7C286ECD8E89FBD08EA3 /* MASLayoutConstraint.h */,
-				9DFD4286E9402BFCF1A5042CBA515863 /* MASLayoutConstraint.m */,
-				F4C7DE6E4FB2607791F1E38E82B0550F /* Masonry.h */,
-				5C6C501769E2DA3CE22CE4BA9B61BD90 /* MASUtilities.h */,
-				8EF30F780E2BD14DF24481BDC5498546 /* MASViewAttribute.h */,
-				1BFB0B11795C1B40153A1A6792AD8430 /* MASViewAttribute.m */,
-				2A25616029B4FC5676B044BBD02C54C2 /* MASViewConstraint.h */,
-				F6FFE47506B20F92B135A335E50B6E9F /* MASViewConstraint.m */,
-				C1B818D35C86765A99363DC0270CC55E /* NSArray+MASAdditions.h */,
-				01FA2F422D817FCC200276FEE81A8466 /* NSArray+MASAdditions.m */,
-				6C6624EA0EDFA9F72CF6A18E889D0D25 /* NSArray+MASShorthandAdditions.h */,
-				89286B607043EF52DC1580A838A8D2F4 /* NSLayoutConstraint+MASDebugAdditions.h */,
-				0487C2E59D05FB9BCF1F1600C8809C2B /* NSLayoutConstraint+MASDebugAdditions.m */,
-				CE1F404471E734FD2E91B9AA72EE50D7 /* View+MASAdditions.h */,
-				2F1F958E9E8CA5C5F1DD8F53FFAEDFDF /* View+MASAdditions.m */,
-				78526D2C8FDDA6A9A4034A969422E45B /* View+MASShorthandAdditions.h */,
-				02B4B23715DFE401486641D6284C1C47 /* ViewController+MASAdditions.h */,
-				4C9B2014C24ADA03537F3B21DB6735E4 /* ViewController+MASAdditions.m */,
-				E7D972E51F76C06A1937889A666AF766 /* Support Files */,
+				4E5709CED54C3B8DC4B50B19520F6771 /* MASCompositeConstraint.h */,
+				B377289AFAE7DF9945B981F14B4AF95C /* MASCompositeConstraint.m */,
+				130F3B92BAB28630295F57E8AAC12EA1 /* MASConstraint.h */,
+				1F1BF5683BFFCF57BA0C385B36CC0BE2 /* MASConstraint.m */,
+				D100F47F5FECCA555C616F7D93D7CB4B /* MASConstraint+Private.h */,
+				3BCF93F338546FCB058B68A5B6F26B32 /* MASConstraintMaker.h */,
+				36D9333B00F315696855ADE85C3E6D15 /* MASConstraintMaker.m */,
+				115A4EA8F789344C790FEA5CDC507FB7 /* MASLayoutConstraint.h */,
+				5FADB5EBFADA2A419371CF5E6C927F1E /* MASLayoutConstraint.m */,
+				F05C6EDBC8E4591F89BD9F1E17FBFC97 /* Masonry.h */,
+				86DFFE3C8ABE515058DCF105EB608F37 /* MASUtilities.h */,
+				0F5718E89E4E5165AA49B980D89CBCF8 /* MASViewAttribute.h */,
+				ACB7B80D58CFA003C25B538A405A341D /* MASViewAttribute.m */,
+				B47E0CCE07C313DF7CE5A32C063379DF /* MASViewConstraint.h */,
+				A17EAC4713F6B85A6124DB11F111B072 /* MASViewConstraint.m */,
+				F20A7188ABF123273A3C22C4340688AC /* NSArray+MASAdditions.h */,
+				C6BB2E40FA7314FFFF244B2FD839A658 /* NSArray+MASAdditions.m */,
+				DF48D82622C6D1FFAC5752C7BB004472 /* NSArray+MASShorthandAdditions.h */,
+				9CD1AD2192C246BE568B6CFBA7EB9C68 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				62890C896C598E9650B511A4A9BA249A /* NSLayoutConstraint+MASDebugAdditions.m */,
+				896A4BCB5B3DBC78E1CF6EBF5AC2862F /* View+MASAdditions.h */,
+				FE7A0F064F168E6660B03C9639A19329 /* View+MASAdditions.m */,
+				9C783239D12541FA278CBEBA15780CE4 /* View+MASShorthandAdditions.h */,
+				1E780607D798BC01DDE3031621C51501 /* ViewController+MASAdditions.h */,
+				071ABA9DA4A53122DD0382E7C7F6CBEB /* ViewController+MASAdditions.m */,
+				BDFB34A12FABD70C59DCE49920774B47 /* Support Files */,
 			);
 			name = Masonry;
 			path = Masonry;
 			sourceTree = "<group>";
 		};
-		CF1408CF629C7361332E53B88F7BD30C = {
+		709862AD00B8AE9A9ED4D6DEE9FF4BCF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				24390EFD555DD124430DFF9724065945 /* Podfile */,
-				FAC7268ABA6B9A63A235046918D5F46F /* Development Pods */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
-				803B98CAB0FC20699018B75050D430B7 /* Products */,
-				E592B7B676538F8AE02DDC1626E13777 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		E0387D24BEE71935EB16EB9F222761B1 /* libColorPicker */ = {
-			isa = PBXGroup;
-			children = (
-				8E6B5B82EEBE2D86FA8D6F92A24250A1 /* BGRSLoupeLayer.h */,
-				065402FC25DE6A3C8CF3055B064CBCA4 /* BGRSLoupeLayer.m */,
-				3AC38A3144694E14DD6725803646FF64 /* RSBrightnessSlider.h */,
-				C2E939EE066F6D537E2C412EE59B95ED /* RSBrightnessSlider.m */,
-				99291FDFC0EBD33EDD4BC59AF2EBD282 /* RSColorFunctions.h */,
-				D15F42A881A39D1D64FAD98DB13F04E2 /* RSColorFunctions.m */,
-				6151ECE5B4A3BED17DD01B09750E48BD /* RSColorPickerState.h */,
-				B1D007DDD7C5243773501453E5E340DE /* RSColorPickerState.m */,
-				C684F76DE32062E9BDD3260084C04E65 /* RSColorPickerView.h */,
-				313590D50AC5F8A05F06277A53F20E3F /* RSColorPickerView.m */,
-				6DD37FF44ABDD0935BACBF2CEBF11966 /* RSGenerateOperation.h */,
-				323B212432FA16B9CA3256D4F805525C /* RSGenerateOperation.m */,
-				53B71C8A9674FFFFD616A9C4AC03D43B /* RSOpacitySlider.h */,
-				68D004FF5BAA6FFA8DA055365EE8E8FA /* RSOpacitySlider.m */,
-				0095CD685399F8DFFA27D72C7561659A /* RSSelectionLayer.h */,
-				729453F92745358273EDD885EF061350 /* RSSelectionLayer.m */,
-				89091CC161939FEB338E13B091FC2328 /* ANImageBitmapRep */,
-				8801E2943B3BF7015C2589C48EB64C65 /* Pod */,
-				0294AAE7FFB0A31D5C25025697F4A81C /* Support Files */,
-			);
-			name = libColorPicker;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
-				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E592B7B676538F8AE02DDC1626E13777 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2CDBF52CCE1176F06D47337F767C90FE /* Pods-libColorPicker_Example */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		E7D972E51F76C06A1937889A666AF766 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				71952D6B483737C09325D4AB561EE3AC /* Info.plist */,
-				FEC30E78D0B1F927259245F7F80E1EF4 /* Masonry.modulemap */,
-				58ED898519A0D4BAC4721B51B3F90CF5 /* Masonry.xcconfig */,
-				D05AC0D83EDD307DE6810AB1A545195C /* Masonry-dummy.m */,
-				9C724AE5F8517A8F6464C202BA9B1EDE /* Masonry-prefix.pch */,
-				08E2497430E0DD07D19074D6AB1F8986 /* Masonry-umbrella.h */,
+				93E231592CC7691E443776DE7D12294B /* LWColorPicker.modulemap */,
+				7DDF97792C470B10F24B400F82F8604C /* LWColorPicker.xcconfig */,
+				34E76BE1EC7A5AE829365E1CDC8EC02B /* LWColorPicker-dummy.m */,
+				BBB5031603B77A680A074246E2206DF7 /* LWColorPicker-Info.plist */,
+				3C0D04B2252728FD37578FAE7364C855 /* LWColorPicker-prefix.pch */,
+				7CE88B889EB8241FFDA4CF75CFBCF253 /* LWColorPicker-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Masonry";
+			path = "Example/Pods/Target Support Files/LWColorPicker";
 			sourceTree = "<group>";
 		};
-		FAC7268ABA6B9A63A235046918D5F46F /* Development Pods */ = {
+		74B9A5B5C87BEDE6ACB462EC1264E749 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E0387D24BEE71935EB16EB9F222761B1 /* libColorPicker */,
+				2F383A816F30D2D0F29FB8A04A29324A /* LICENSE */,
+				3C501401DF4ACA0B91E3AB29E5BDF9A8 /* LWColorPicker.podspec */,
+				961BF41AF915969880DF25C919DC9CBF /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		FDED1152D2BDFBAF34116B2F44A32A1F /* Manipulators */ = {
+		7529FD53BCE26816CCD46658378AAF1B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				6963D7F9AC663964CE2565B594CE821D /* BitmapContextManipulator.h */,
-				A9C454DE254A74312FA7EEACD0B37DD0 /* BitmapContextManipulator.m */,
-				D70E02CC15BC25704AF78A20830AF842 /* BitmapCropManipulator.h */,
-				0147C1A470D76C06EA493722F56B1B57 /* BitmapCropManipulator.m */,
-				44B3725B2B6DB5B9557B6F21519B71F0 /* BitmapDrawManipulator.h */,
-				6EBCC83F1E4F2422B3B608F64911A0AA /* BitmapDrawManipulator.m */,
-				A4C30A4537637BDA26E0EEB8AA5CB748 /* BitmapRotationManipulator.h */,
-				AB8EFC12863115700802BFE960BEF67B /* BitmapRotationManipulator.m */,
-				58C0578FBACBF5164F349348AF20B3EE /* BitmapScaleManipulator.h */,
-				D3ED577556AC626D3B645FF2BD93CA40 /* BitmapScaleManipulator.m */,
+				641727D7EBF7D099C436C5885417E360 /* Masonry */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7A61D3854E893E0A2E2052D79225CEBF /* Manipulators */ = {
+			isa = PBXGroup;
+			children = (
+				9C1406600CFA52FB4271CFC93F3EEA15 /* BitmapContextManipulator.h */,
+				80DFE036D9200CEECEC7E850483FAE12 /* BitmapContextManipulator.m */,
+				C2A0C9E35C8C5E52D2E625EA076304FD /* BitmapCropManipulator.h */,
+				C6471C7F0A13151B3FFE839EFA508BFA /* BitmapCropManipulator.m */,
+				3288C72CE0B55960D39A554292594963 /* BitmapDrawManipulator.h */,
+				DFDF855B56692C531D359825EB5A6409 /* BitmapDrawManipulator.m */,
+				26BD3CE5A79794232CA7C3FC9B5E98F7 /* BitmapRotationManipulator.h */,
+				FB93357FD8FA73C47424B466228FE313 /* BitmapRotationManipulator.m */,
+				1BB2470F8C92E3E887CA194299121B90 /* BitmapScaleManipulator.h */,
+				7646F28A6615DDD483F8646C2760D32A /* BitmapScaleManipulator.m */,
 			);
 			name = Manipulators;
 			path = Manipulators;
 			sourceTree = "<group>";
 		};
+		9E09FE382C970681363F9CFD4B29498A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E86502D0A9EC841254DE9DCF5D8E26AE /* Pods-LWColorPicker_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9F5FE0536B0003B942D454FC7653006C /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				14D308B711C4A7FA1A9769BB9985975A /* NSImage+ANImageBitmapRep.h */,
+				BE11DE68E89574A0D9A1D8001356EF99 /* NSImage+ANImageBitmapRep.m */,
+				DBFEDE516D1C9EF9A075B3EF7840DBDE /* OSCommonImage.h */,
+				628D1C44A627AAEC4EE3B337A9A2364F /* OSCommonImage.m */,
+				489B97FD8807F461CAABB10E5AA7972F /* UIImage+ANImageBitmapRep.h */,
+				4CF112171C87F825DCC210EB8945A5DA /* UIImage+ANImageBitmapRep.m */,
+			);
+			name = Compatibility;
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		BDFB34A12FABD70C59DCE49920774B47 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				870570EFE09B8657023DC7C42C33BE4B /* Masonry.modulemap */,
+				002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */,
+				E476E5DC364B11085C84F8770A12FD3B /* Masonry-dummy.m */,
+				025EB543E67AF6218FBFEFBEC406E598 /* Masonry-Info.plist */,
+				E6225045F2DF7AF603D15E0A59933930 /* Masonry-prefix.pch */,
+				8D4CA7B92265A15B80B1666634FF46C0 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		C960E9BAB54948E8984333560107FB47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01E56B47B49E873B490A71FBBC283C57 /* LWColorPicker.framework */,
+				1FFED36A657123030ABB700256D73F15 /* Masonry.framework */,
+				E6CA36E9F5D907B0F3D3E8A449F19330 /* Pods_LWColorPicker_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				601984BE3C5F7FAE831A6A12CF6A11FE /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				7529FD53BCE26816CCD46658378AAF1B /* Pods */,
+				C960E9BAB54948E8984333560107FB47 /* Products */,
+				9E09FE382C970681363F9CFD4B29498A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E6334E427A269CF075EC3685C826BC49 /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				5AB27C89FCDCE00ADBA95D4902A787FD /* CGContextCreator.h */,
+				35B4FC917E7FF9F0DC2AE6AA3996BAD2 /* CGContextCreator.m */,
+				055A7A290A8FDBB24AEC10DBA72014A8 /* CGImageContainer.h */,
+				4AE6BA3FAE460C896D572B4342BA4134 /* CGImageContainer.m */,
+			);
+			name = CoreGraphics;
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		E86502D0A9EC841254DE9DCF5D8E26AE /* Pods-LWColorPicker_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B33AB2406856F160A510E926D0522767 /* Pods-LWColorPicker_Example.modulemap */,
+				DA1A34449206FDB91D29D4F6F7971982 /* Pods-LWColorPicker_Example-acknowledgements.markdown */,
+				F555B9D5C7AACB643C154A02697E29A1 /* Pods-LWColorPicker_Example-acknowledgements.plist */,
+				D0B1255D262187D656847123806C33B4 /* Pods-LWColorPicker_Example-dummy.m */,
+				4011999AFDF0728E02C242CE3DA791F5 /* Pods-LWColorPicker_Example-frameworks.sh */,
+				164572B7BF569E22C21098920478B363 /* Pods-LWColorPicker_Example-Info.plist */,
+				5E2823F48F0DA1CB1A6F82FE0F4B7475 /* Pods-LWColorPicker_Example-umbrella.h */,
+				9DD019443B16CBCAC45FFCD527BF23E5 /* Pods-LWColorPicker_Example.debug.xcconfig */,
+				EEEE618A31BBF8D30875AAFF84A6FC0D /* Pods-LWColorPicker_Example.release.xcconfig */,
+			);
+			name = "Pods-LWColorPicker_Example";
+			path = "Target Support Files/Pods-LWColorPicker_Example";
+			sourceTree = "<group>";
+		};
+		F1B8D767B03AF42AAA4C2F4BFC723955 /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				88189DD965AC73172AF91F28C0CA47E7 /* ANImageBitmapRep.h */,
+				329624FF34207B5700F0924DA47DC20E /* ANImageBitmapRep.m */,
+				9F9BEEC4389E710405FB42FB1335DBEB /* BitmapContextRep.h */,
+				3D0133F303C073D4B4FAFF1DDD13E9E8 /* BitmapContextRep.m */,
+				9F5FE0536B0003B942D454FC7653006C /* Compatibility */,
+				E6334E427A269CF075EC3685C826BC49 /* CoreGraphics */,
+				7A61D3854E893E0A2E2052D79225CEBF /* Manipulators */,
+			);
+			name = ANImageBitmapRep;
+			path = LWColorPicker/Classes/ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		F3C70F3D710363FB7F9AC71797EDD0B4 /* LWColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A760E7E741C7E99474B62FAE61FBAEFE /* BGRSLoupeLayer.h */,
+				C445B5D4AF4600B7CA2D8E0ADA04C9FA /* BGRSLoupeLayer.m */,
+				9B3A8D93A233CF1CB9A1C6E09D225F33 /* RSBrightnessSlider.h */,
+				663805D846A6EBA7371D7988F4170258 /* RSBrightnessSlider.m */,
+				3B1F425F4F40855FA423D1060CB093A7 /* RSColorFunctions.h */,
+				F8837C8EA044B8C563AF42C9B9A599E6 /* RSColorFunctions.m */,
+				36C8499CDFD96EEDA08D444AFADFACD1 /* RSColorPickerState.h */,
+				45E6FDC51B72BAFAAE7477332524147C /* RSColorPickerState.m */,
+				5A8604CD77C02563CD362FEC9833DE82 /* RSColorPickerView.h */,
+				E564474178609D4D50D346A758C15747 /* RSColorPickerView.m */,
+				C6E4831FB8CE01B1BE726DF6F47F46D1 /* RSGenerateOperation.h */,
+				D3886F45B8BC5EC2D77A405A3301D9AD /* RSGenerateOperation.m */,
+				F509DC79259EDF19463248C8F9D4AD4C /* RSOpacitySlider.h */,
+				81CA53A9E08AB03B7A7F46666156171B /* RSOpacitySlider.m */,
+				DE4AA80D504B7DEA8B23CF5C3A54941F /* RSSelectionLayer.h */,
+				F91EDD6C65C157B6460E57C514EC2EB9 /* RSSelectionLayer.m */,
+				F1B8D767B03AF42AAA4C2F4BFC723955 /* ANImageBitmapRep */,
+				74B9A5B5C87BEDE6ACB462EC1264E749 /* Pod */,
+				709862AD00B8AE9A9ED4D6DEE9FF4BCF /* Support Files */,
+			);
+			name = LWColorPicker;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		26EA19AE7369B1DE1EEAF2F7AEDD39DF /* Headers */ = {
+		3D00DE88C1D15DD37EA9661274C46E3E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4E4B214D12086AC4208E95167EC73A /* Pods-libColorPicker_Example-umbrella.h in Headers */,
+				E5C24B310CAA504215AE24C72305CE4F /* Pods-LWColorPicker_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F7B0A0B7EFF9EB636009C59206CEC63 /* Headers */ = {
+		649E53F0A97AE20782B2D4180AD0EE84 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E463A85D154C8CFA4DD577F1CCB14E0D /* ANImageBitmapRep.h in Headers */,
-				6EE8A3D7FB2793518D2CD4024BCA1812 /* BGRSLoupeLayer.h in Headers */,
-				19072A7E6E8E8F02EBACC445807D221B /* BitmapContextManipulator.h in Headers */,
-				BD761894E2E77C01327913EC5AAF59F9 /* BitmapContextRep.h in Headers */,
-				1103B6825DF66EBF8E65AAA32CAFE29E /* BitmapCropManipulator.h in Headers */,
-				FBDDC535BC3736896FD61A014BCE8C6B /* BitmapDrawManipulator.h in Headers */,
-				4B0540081BAC1927C4B284602E4A0792 /* BitmapRotationManipulator.h in Headers */,
-				E2A7F8565462C2FD09BC146B85B6F357 /* BitmapScaleManipulator.h in Headers */,
-				E2CB84164CBA765FA1C23244FCD00559 /* CGContextCreator.h in Headers */,
-				F818538C57ED712F3C3A8C3D977CDD54 /* CGImageContainer.h in Headers */,
-				72730EE0A25330711ED6CC41203C5726 /* libColorPicker-umbrella.h in Headers */,
-				46A6365F30FBA06E85B88D8811F468CB /* NSImage+ANImageBitmapRep.h in Headers */,
-				DE6FCE4FEA59582064C9CE8DD718A5BD /* OSCommonImage.h in Headers */,
-				A7E4A3200D1FBE2D664E87DE0747FA0E /* RSBrightnessSlider.h in Headers */,
-				86522DA156214537D3CE3EAE749528CB /* RSColorFunctions.h in Headers */,
-				04401CD412383BD5CF64763EAAED709C /* RSColorPickerState.h in Headers */,
-				9961CA09AD871BA6135B2CBA7675BDCF /* RSColorPickerView.h in Headers */,
-				8B87AD549120DC745D0F0DE013527973 /* RSGenerateOperation.h in Headers */,
-				AC6A47651CAF5F9896CDEC82840F5194 /* RSOpacitySlider.h in Headers */,
-				1BE51303FF3E19992E6E4D23BC387016 /* RSSelectionLayer.h in Headers */,
-				2BECFB6D3C9606DEAA1ACA4B96E57EEF /* UIImage+ANImageBitmapRep.h in Headers */,
+				57EE002D5366930EC6F64F8C05C02D7B /* ANImageBitmapRep.h in Headers */,
+				9D855973172A25DB686301936AA35903 /* BGRSLoupeLayer.h in Headers */,
+				BE90E4E6C7E91720F7B01FAC34C833B4 /* BitmapContextManipulator.h in Headers */,
+				FE580F0CBD91D6801FEF8BF19447D2FA /* BitmapContextRep.h in Headers */,
+				9B6F57EFBE1AD0D24FDC909545675DCC /* BitmapCropManipulator.h in Headers */,
+				BD52380D8C51E92ED7159591E7DCFB80 /* BitmapDrawManipulator.h in Headers */,
+				92A1AA479F05D62AA781BC726754EFDC /* BitmapRotationManipulator.h in Headers */,
+				3EAB9AAEADBF6D15C69218E04CB7C731 /* BitmapScaleManipulator.h in Headers */,
+				9CE3AB6D3749ABD5F7A520299E67FEE8 /* CGContextCreator.h in Headers */,
+				1B332250E35C827DB3AE0AFB3407082D /* CGImageContainer.h in Headers */,
+				54879452E427C1CF96DA7D5AAB4181E6 /* LWColorPicker-umbrella.h in Headers */,
+				6EA51E05CBBFF2F8A10066E921A28927 /* NSImage+ANImageBitmapRep.h in Headers */,
+				3C7003E1A91E5C98C0B809D6DC90D420 /* OSCommonImage.h in Headers */,
+				7831E8F002E1CEB5477A2A21704F33B5 /* RSBrightnessSlider.h in Headers */,
+				7A32FF83B83DAC09901EB6CAA11F52A9 /* RSColorFunctions.h in Headers */,
+				F22E5B2CF6FC9D3CA86800127C41CA72 /* RSColorPickerState.h in Headers */,
+				6FA93CC03FA310947887B4AC78EC85F8 /* RSColorPickerView.h in Headers */,
+				56245A70FC6B3BA2B4D3B1A8C3AFD7D8 /* RSGenerateOperation.h in Headers */,
+				627A43B7691FB21B58255B58F8340BF8 /* RSOpacitySlider.h in Headers */,
+				C3C0A1C4A43EE873384F63079DC4D4D4 /* RSSelectionLayer.h in Headers */,
+				ED4E5CAC526C1B9B3D724FA4E10166A2 /* UIImage+ANImageBitmapRep.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AEEF42D310945EF524479BE261E401C3 /* Headers */ = {
+		7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0FE394E692A30796B0B8260680542A7 /* MASCompositeConstraint.h in Headers */,
-				94C1561BC701BB0EA90A7DD26B5D2D4F /* MASConstraint+Private.h in Headers */,
-				2FBE88AB6732B2F224FCEA7F490757EB /* MASConstraint.h in Headers */,
-				C5305C30EF88CDEFD1BFDE547F0B0932 /* MASConstraintMaker.h in Headers */,
-				13CF24549FA862851C8ADF5CFE22FEFD /* MASLayoutConstraint.h in Headers */,
-				A98413C6607F08050A4E1E4D4DBADD94 /* Masonry-umbrella.h in Headers */,
-				F50920C2026473CF11E5C635750F12EE /* Masonry.h in Headers */,
-				67843D6939DCFB92F851C88AD853EB8B /* MASUtilities.h in Headers */,
-				9269E802D3E20C338BDDFF5DA07029E5 /* MASViewAttribute.h in Headers */,
-				626B143296611EBC98F20F738CFB4AA8 /* MASViewConstraint.h in Headers */,
-				27F1DAFCBA43BFC893AAB8D70B811B04 /* NSArray+MASAdditions.h in Headers */,
-				1E4C2B7E07259DD5B60C4FE6A8A70C6F /* NSArray+MASShorthandAdditions.h in Headers */,
-				DADF5150B678D8FAB699D940DED2C71D /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
-				357FF480909B78B01A5BBA13263779DE /* View+MASAdditions.h in Headers */,
-				4FDED973490EB6A8908D2671154FDB89 /* View+MASShorthandAdditions.h in Headers */,
-				C8B2C44773021FE52AE8D492B90F5787 /* ViewController+MASAdditions.h in Headers */,
+				8D65CE579E516BDD5FB36CAA21D693F6 /* MASCompositeConstraint.h in Headers */,
+				9D546E1168C04B0B2EAE005D9275D18B /* MASConstraint+Private.h in Headers */,
+				941955A19C40899D275604E6E9C21A6D /* MASConstraint.h in Headers */,
+				FAFBFA90F7BC3E7CF50F8A5CF0A8B264 /* MASConstraintMaker.h in Headers */,
+				8D4D1F6E4709EBB13974E95DC1059DDC /* MASLayoutConstraint.h in Headers */,
+				6A6AD3A5BBDBFD0B4AF936BD518EC0B1 /* Masonry-umbrella.h in Headers */,
+				346080C0D1CA23399ADD739D722D7CEF /* Masonry.h in Headers */,
+				280D36330BAC5715615FF4A8B42D60D6 /* MASUtilities.h in Headers */,
+				3DA5F1D8E51CDD102A871C2F37770C7B /* MASViewAttribute.h in Headers */,
+				EAE8B0895956885A752B173683A0D889 /* MASViewConstraint.h in Headers */,
+				05EA1447EEA0EB669F8DEE73964A7C60 /* NSArray+MASAdditions.h in Headers */,
+				05A040F35BF1C88F869404E1A940B493 /* NSArray+MASShorthandAdditions.h in Headers */,
+				0AF1AD35706D90B1A91F291B899EF8C0 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4B0981F9AC628CF5100C50FF4A163A4A /* View+MASAdditions.h in Headers */,
+				E7CA20228B3583F41927813EE904CAD3 /* View+MASShorthandAdditions.h in Headers */,
+				8B92011C9373001132C8148BFC8F50B3 /* ViewController+MASAdditions.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2E4B7F9811CD3B15C0D63CEF10C6EAF6 /* libColorPicker */ = {
+		55AF53E6C77A10ED4985E04D74A8878E /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 381B1F79B876B70ED233AC3E56C8EFC3 /* Build configuration list for PBXNativeTarget "libColorPicker" */;
+			buildConfigurationList = 87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				2F7B0A0B7EFF9EB636009C59206CEC63 /* Headers */,
-				0FDF6BF80108CFC28AF49A295519D9A8 /* Sources */,
-				6F144B38382AD64F02DB82A6A7F2BB44 /* Frameworks */,
-				C1C193B78116BCC2DBAFB997F6F49FF5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = libColorPicker;
-			productName = libColorPicker;
-			productReference = 0F3A8E88691DB727C322D212CF6272A5 /* libColorPicker.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		348FDDFDD2B5CF3DC0CE1799C97480B5 /* Pods-libColorPicker_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 135F8B1511035ED2EE9681F6B6E30570 /* Build configuration list for PBXNativeTarget "Pods-libColorPicker_Example" */;
-			buildPhases = (
-				26EA19AE7369B1DE1EEAF2F7AEDD39DF /* Headers */,
-				13F227191938948E4563C37439809A50 /* Sources */,
-				2BC0FCD71CDCD76C22169268DDD921BD /* Frameworks */,
-				AB89FEF33DEFDA58DDFE4E4866B040FA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0331A6D6516B205CD79EB34F3BF8E03F /* PBXTargetDependency */,
-				C6EA940CD709EC0C49DFE3996BAA492D /* PBXTargetDependency */,
-			);
-			name = "Pods-libColorPicker_Example";
-			productName = "Pods-libColorPicker_Example";
-			productReference = F0AB8817EDB7F05A7A01733D7A80003F /* Pods_libColorPicker_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D7964FEECC30DBE46B643F8DD34A835C /* Build configuration list for PBXNativeTarget "Masonry" */;
-			buildPhases = (
-				AEEF42D310945EF524479BE261E401C3 /* Headers */,
-				AC6071752917EDD9CA03308E10664ED0 /* Sources */,
-				3C1E3A95E883FDFBDFCB23330263203F /* Frameworks */,
-				94F1D38151CB787DCDF119BD0454392E /* Resources */,
+				7B04ACBA4522760CA66A5D4AFA498F81 /* Headers */,
+				038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */,
+				5E047F76604659BF1B2099B2C412AC93 /* Frameworks */,
+				895ED1B8779C1D82DF681CBFF67AC570 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -586,7 +546,45 @@
 			);
 			name = Masonry;
 			productName = Masonry;
-			productReference = 84319B87C478618383CE2AAF88FA25DE /* Masonry.framework */;
+			productReference = 1FFED36A657123030ABB700256D73F15 /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E7688D5C0861616AEBDD08DBD448EA08 /* Pods-LWColorPicker_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72E1E0ED1E1C9F2989C97462C4B80991 /* Build configuration list for PBXNativeTarget "Pods-LWColorPicker_Example" */;
+			buildPhases = (
+				3D00DE88C1D15DD37EA9661274C46E3E /* Headers */,
+				4603986172FDE5DD4DA00C10FE06E4DD /* Sources */,
+				7F2C103419D40480B473C3848CFF755B /* Frameworks */,
+				CE5794641C52BC8D8B75F8AA571003B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F85D6F49C7E8E5A28E13DA44D694D8B3 /* PBXTargetDependency */,
+				E14AF65E6F4033F37E5E93FFD698FC74 /* PBXTargetDependency */,
+			);
+			name = "Pods-LWColorPicker_Example";
+			productName = "Pods-LWColorPicker_Example";
+			productReference = E6CA36E9F5D907B0F3D3E8A449F19330 /* Pods_LWColorPicker_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FD76C59A1901E3A548F1210CBE7F1FB1 /* LWColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87AC066005D82B3EDA01DD66CC564EC0 /* Build configuration list for PBXNativeTarget "LWColorPicker" */;
+			buildPhases = (
+				649E53F0A97AE20782B2D4180AD0EE84 /* Headers */,
+				8972FDEC16E2DFD2C694F92BFABB1F99 /* Sources */,
+				0AB5B62E1B858C252D85124F08EFD844 /* Frameworks */,
+				8620D6D9CE86AC7142DEDB011A73C120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWColorPicker;
+			productName = LWColorPicker;
+			productReference = 01E56B47B49E873B490A71FBBC283C57 /* LWColorPicker.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -595,44 +593,45 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 803B98CAB0FC20699018B75050D430B7 /* Products */;
+			productRefGroup = C960E9BAB54948E8984333560107FB47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2E4B7F9811CD3B15C0D63CEF10C6EAF6 /* libColorPicker */,
-				64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */,
-				348FDDFDD2B5CF3DC0CE1799C97480B5 /* Pods-libColorPicker_Example */,
+				FD76C59A1901E3A548F1210CBE7F1FB1 /* LWColorPicker */,
+				55AF53E6C77A10ED4985E04D74A8878E /* Masonry */,
+				E7688D5C0861616AEBDD08DBD448EA08 /* Pods-LWColorPicker_Example */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		94F1D38151CB787DCDF119BD0454392E /* Resources */ = {
+		8620D6D9CE86AC7142DEDB011A73C120 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AB89FEF33DEFDA58DDFE4E4866B040FA /* Resources */ = {
+		895ED1B8779C1D82DF681CBFF67AC570 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1C193B78116BCC2DBAFB997F6F49FF5 /* Resources */ = {
+		CE5794641C52BC8D8B75F8AA571003B5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -642,112 +641,81 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0FDF6BF80108CFC28AF49A295519D9A8 /* Sources */ = {
+		038B428AD06C5A47FAF2BEFE16C6DC16 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5157BCDB372CC91B65CED2CACFA5D7DC /* ANImageBitmapRep.m in Sources */,
-				078D00F494A3DDEE9FEC4451B9DF2682 /* BGRSLoupeLayer.m in Sources */,
-				1689BC825D5F496E08806A0944FF608C /* BitmapContextManipulator.m in Sources */,
-				F36530E69F165941E19746D2C6B0B139 /* BitmapContextRep.m in Sources */,
-				3AD222A50285FF5EE257494D0CC7890C /* BitmapCropManipulator.m in Sources */,
-				7D62ACD58E82F4B32DC4D2D6C07EEE12 /* BitmapDrawManipulator.m in Sources */,
-				556EFEEA57BF8167F007B4ED6E9006C1 /* BitmapRotationManipulator.m in Sources */,
-				152E0647E7A42CEC00F710C1C56DCDFC /* BitmapScaleManipulator.m in Sources */,
-				47234171932DDD6DB33BAEAD8BE3295D /* CGContextCreator.m in Sources */,
-				5549B48C59A30E066FDA3055C389343E /* CGImageContainer.m in Sources */,
-				822A54CBF3C395A4B6A07EB7B8A69630 /* libColorPicker-dummy.m in Sources */,
-				90C496A090195D5EEA118A8A6ACDD78C /* NSImage+ANImageBitmapRep.m in Sources */,
-				4D60E4B1D26EAF340DDECFB06630F317 /* OSCommonImage.m in Sources */,
-				9DA747E62FE9077D4ACFF11C07A7034F /* RSBrightnessSlider.m in Sources */,
-				CA874A9F56696FF085CA57B70FD8D1A9 /* RSColorFunctions.m in Sources */,
-				D92F2DC380D9D2D1980B869F57C03361 /* RSColorPickerState.m in Sources */,
-				025C97F9F0A98F949B6F4292629469CE /* RSColorPickerView.m in Sources */,
-				A412E7C718C0F1C79FE454A98C7CC186 /* RSGenerateOperation.m in Sources */,
-				047223DEB22CB10257C3ED9144276CD3 /* RSOpacitySlider.m in Sources */,
-				27045CD9D356CEF7BC9A51061DF0C64E /* RSSelectionLayer.m in Sources */,
-				79F3B8729AF65224C52E7751ACCEBCE1 /* UIImage+ANImageBitmapRep.m in Sources */,
+				7BFF65958F014760B6AC4742824892EB /* MASCompositeConstraint.m in Sources */,
+				E8DD5D1D406150E1C80AD015271B6848 /* MASConstraint.m in Sources */,
+				78B2727EE5D693F58D019DB098005101 /* MASConstraintMaker.m in Sources */,
+				8539B851E01A58467BE49CA3FA77223C /* MASLayoutConstraint.m in Sources */,
+				1972E85F0FCD0F3EAF28ED7CD036286E /* Masonry-dummy.m in Sources */,
+				297A3627CF2F032CBFDC61D1A3786E63 /* MASViewAttribute.m in Sources */,
+				B7D645EC004610E8A581E532D28771EC /* MASViewConstraint.m in Sources */,
+				098630ECDB64ED7B89F5F687C82B4AC3 /* NSArray+MASAdditions.m in Sources */,
+				C0861ADB4C5FA30F4F9E051F7638A264 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				A35FBEEC7D088AEC05297E8292A32C77 /* View+MASAdditions.m in Sources */,
+				0967598607D521318F69D7D39D517B20 /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		13F227191938948E4563C37439809A50 /* Sources */ = {
+		4603986172FDE5DD4DA00C10FE06E4DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4548EEC7D799F8D8BED0F0FC52D003FE /* Pods-libColorPicker_Example-dummy.m in Sources */,
+				BC3A68C13F54013363815DD51A1F449E /* Pods-LWColorPicker_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AC6071752917EDD9CA03308E10664ED0 /* Sources */ = {
+		8972FDEC16E2DFD2C694F92BFABB1F99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5C9CAD634744DFE373DA45B0CD1806C /* MASCompositeConstraint.m in Sources */,
-				62449CA0C38A2DC85B0982B25394E90E /* MASConstraint.m in Sources */,
-				57DFE313C53DA21975AD94A81F166BD1 /* MASConstraintMaker.m in Sources */,
-				BC9D138592743C6138E5EEBDCF679053 /* MASLayoutConstraint.m in Sources */,
-				DDA0C9910C0F791259FCB4E0E85F3DBD /* Masonry-dummy.m in Sources */,
-				07818F5781210B4DD5E5D0E0E77CE532 /* MASViewAttribute.m in Sources */,
-				73300003438DC542B9D0546D73877707 /* MASViewConstraint.m in Sources */,
-				DDC5DE76CA3AC9073FB5C6BFBA026AFE /* NSArray+MASAdditions.m in Sources */,
-				D892D5CB8E1711B1FE8FCA30D5D1713F /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				75C5B6C21E0CC4898AE48E52DDA91375 /* View+MASAdditions.m in Sources */,
-				C58C96ECEB8DA48FD48BF98210048834 /* ViewController+MASAdditions.m in Sources */,
+				4EB86D83FB301B4BDDA8A92E3380C1F8 /* ANImageBitmapRep.m in Sources */,
+				A3638416DE63515CCECEB434F335FCC0 /* BGRSLoupeLayer.m in Sources */,
+				EFCAB5E611A7F922B884081EDB88E861 /* BitmapContextManipulator.m in Sources */,
+				29B9210C319790326772296CC5A9B365 /* BitmapContextRep.m in Sources */,
+				01787AAF21D6EF9C49CCF33DAA3E9409 /* BitmapCropManipulator.m in Sources */,
+				19502FB205C38B86550860C43088086D /* BitmapDrawManipulator.m in Sources */,
+				E1BF6D7B12F2F45A6665F585BB8B76DE /* BitmapRotationManipulator.m in Sources */,
+				3400A1314201C5117D02C9AB1BB0B77A /* BitmapScaleManipulator.m in Sources */,
+				3DA483402D4C8B10D993F316356822C2 /* CGContextCreator.m in Sources */,
+				28E64FA9A6A1A2DA6C2FB8B1F168C0AF /* CGImageContainer.m in Sources */,
+				E485AF12EEAEDE02876FF6D22D13FDDF /* LWColorPicker-dummy.m in Sources */,
+				1EF578D2C46CCCE0BCFC20FD56B57C1F /* NSImage+ANImageBitmapRep.m in Sources */,
+				08A72D5ABA02F615F4F1E063FEA30BE9 /* OSCommonImage.m in Sources */,
+				81EB7828F9872C548BBEB252D45C366D /* RSBrightnessSlider.m in Sources */,
+				573EECF5712BEF6C02B902BC5F09B853 /* RSColorFunctions.m in Sources */,
+				E69570216410BC126063993A78930D26 /* RSColorPickerState.m in Sources */,
+				B34F92C9B6FF934B6EE929F627BFA4DA /* RSColorPickerView.m in Sources */,
+				178E9AEF3A7AE531EA8F8109FBBF4833 /* RSGenerateOperation.m in Sources */,
+				FBE4E6B2F0E5B54C30F5228150532A71 /* RSOpacitySlider.m in Sources */,
+				76DFBCB8EBE9503B1A3289582D71AB15 /* RSSelectionLayer.m in Sources */,
+				2920BC4C2BF22C21FF1CF1C9318D0DF2 /* UIImage+ANImageBitmapRep.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0331A6D6516B205CD79EB34F3BF8E03F /* PBXTargetDependency */ = {
+		E14AF65E6F4033F37E5E93FFD698FC74 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Masonry;
-			target = 64908377FC47CBE2E0EA0FA3CC30D3C1 /* Masonry */;
-			targetProxy = 2C0020FFD4B2BB5D5B680E0D9D3184BC /* PBXContainerItemProxy */;
+			target = 55AF53E6C77A10ED4985E04D74A8878E /* Masonry */;
+			targetProxy = 9EF6704B9D9C145E3004BC592A83F9FB /* PBXContainerItemProxy */;
 		};
-		C6EA940CD709EC0C49DFE3996BAA492D /* PBXTargetDependency */ = {
+		F85D6F49C7E8E5A28E13DA44D694D8B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = libColorPicker;
-			target = 2E4B7F9811CD3B15C0D63CEF10C6EAF6 /* libColorPicker */;
-			targetProxy = 384D90FEF5D9FBE31254656C4FD24846 /* PBXContainerItemProxy */;
+			name = LWColorPicker;
+			target = FD76C59A1901E3A548F1210CBE7F1FB1 /* LWColorPicker */;
+			targetProxy = 24FD51D095F1BD76740D89ABC7F95D2A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		32DCCD11E7CC25981FD789C6CCCE0204 /* Release */ = {
+		1EB49516C68EACD1F12312090A9E289D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014A9B818718638EB4D72ADF7FF0813 /* libColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libColorPicker/libColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libColorPicker/libColorPicker.modulemap";
-				PRODUCT_MODULE_NAME = libColorPicker;
-				PRODUCT_NAME = libColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		49CE47A148E3E84885A1FB1BAAFF1C79 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BCE9D53157F94DDF449853CA0E1D85DA /* Pods-libColorPicker_Example.debug.xcconfig */;
+			baseConfigurationReference = 9DD019443B16CBCAC45FFCD527BF23E5 /* Pods-LWColorPicker_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -759,12 +727,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libColorPicker_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -778,7 +746,41 @@
 			};
 			name = Debug;
 		};
-		5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */ = {
+		30ABD9817B0C78F5C596090316CBE27E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEEE618A31BBF8D30875AAFF84A6FC0D /* Pods-LWColorPicker_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LWColorPicker_Example/Pods-LWColorPicker_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -810,8 +812,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -835,44 +835,14 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		6043155C0A6961409707C53AE882E7F9 /* Debug */ = {
+		58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6014A9B818718638EB4D72ADF7FF0813 /* libColorPicker.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/libColorPicker/libColorPicker-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/libColorPicker/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/libColorPicker/libColorPicker.modulemap";
-				PRODUCT_MODULE_NAME = libColorPicker;
-				PRODUCT_NAME = libColorPicker;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		724A278464D17DA79ACF36AD95FC5AC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58ED898519A0D4BAC4721B51B3F90CF5 /* Masonry.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -884,7 +854,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -900,7 +870,7 @@
 			};
 			name = Debug;
 		};
-		B64E2C722A3EAD054D380F489370F012 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -932,8 +902,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -961,16 +929,15 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E395C82B1CA443ED6D373DAB825B420B /* Release */ = {
+		9C0441784D98D41D0FA3748C5BFC6B90 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8BE2DEF7261CE1ECA5739E233FA23FA /* Pods-libColorPicker_Example.release.xcconfig */;
+			baseConfigurationReference = 7DDF97792C470B10F24B400F82F8604C /* LWColorPicker.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -980,19 +947,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-libColorPicker_Example/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/LWColorPicker/LWColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWColorPicker/LWColorPicker-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-libColorPicker_Example/Pods-libColorPicker_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MODULEMAP_FILE = "Target Support Files/LWColorPicker/LWColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = LWColorPicker;
+				PRODUCT_NAME = LWColorPicker;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1000,9 +965,9 @@
 			};
 			name = Release;
 		};
-		F5D6F0B54E0E25CA750540BFD9ECB589 /* Release */ = {
+		B073834A854DB6060D2B832FA6A93A33 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58ED898519A0D4BAC4721B51B3F90CF5 /* Masonry.xcconfig */;
+			baseConfigurationReference = 002BF3DDD89C177475702379D618BDA2 /* Masonry.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1014,7 +979,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Masonry-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1031,41 +996,71 @@
 			};
 			name = Release;
 		};
+		F2421C44C8D97DF4367282FB6028737E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DDF97792C470B10F24B400F82F8604C /* LWColorPicker.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LWColorPicker/LWColorPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LWColorPicker/LWColorPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LWColorPicker/LWColorPicker.modulemap";
+				PRODUCT_MODULE_NAME = LWColorPicker;
+				PRODUCT_NAME = LWColorPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		135F8B1511035ED2EE9681F6B6E30570 /* Build configuration list for PBXNativeTarget "Pods-libColorPicker_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				49CE47A148E3E84885A1FB1BAAFF1C79 /* Debug */,
-				E395C82B1CA443ED6D373DAB825B420B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		381B1F79B876B70ED233AC3E56C8EFC3 /* Build configuration list for PBXNativeTarget "libColorPicker" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6043155C0A6961409707C53AE882E7F9 /* Debug */,
-				32DCCD11E7CC25981FD789C6CCCE0204 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B64E2C722A3EAD054D380F489370F012 /* Debug */,
-				5EA5006381E12BC9AA7DEEBC8BCE4905 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D7964FEECC30DBE46B643F8DD34A835C /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+		72E1E0ED1E1C9F2989C97462C4B80991 /* Build configuration list for PBXNativeTarget "Pods-LWColorPicker_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				724A278464D17DA79ACF36AD95FC5AC1 /* Debug */,
-				F5D6F0B54E0E25CA750540BFD9ECB589 /* Release */,
+				1EB49516C68EACD1F12312090A9E289D /* Debug */,
+				30ABD9817B0C78F5C596090316CBE27E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87AC066005D82B3EDA01DD66CC564EC0 /* Build configuration list for PBXNativeTarget "LWColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F2421C44C8D97DF4367282FB6028737E /* Debug */,
+				9C0441784D98D41D0FA3748C5BFC6B90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87FD40BD683E3BD044AA4D1B5CA58652 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58EB9047EADAA7A9E5EE80620EBB9C24 /* Debug */,
+				B073834A854DB6060D2B832FA6A93A33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

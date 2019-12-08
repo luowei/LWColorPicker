@@ -1,15 +1,15 @@
 //
 //  LWViewController.m
-//  libColorPicker
+//  LWColorPicker
 //
 //  Created by luowei on 05/07/2019.
 //  Copyright (c) 2019 luowei. All rights reserved.
 //
 
-#import <libColorPicker/RSColorPickerView.h>
-#import <libColorPicker/RSColorFunctions.h>
-#import <libColorPicker/RSBrightnessSlider.h>
-#import <libColorPicker/RSOpacitySlider.h>
+#import <LWColorPicker/RSColorPickerView.h>
+#import <LWColorPicker/RSColorFunctions.h>
+#import <LWColorPicker/RSBrightnessSlider.h>
+#import <LWColorPicker/RSOpacitySlider.h>
 #import <Masonry/View+MASAdditions.h>
 #import "LWViewController.h"
 

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint libColorPicker.podspec' to ensure this is a
+# Be sure to run `pod lib lint LWColorPicker.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'libColorPicker'
+  s.name             = 'LWColorPicker'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of libColorPicker.'
+  s.summary          = 'A short description of LWColorPicker.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,19 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/luowei/libColorPicker'
+  s.homepage         = 'https://github.com/luowei/LWColorPicker'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luowei' => 'luowei@wodedata.com' }
-  s.source           = { :git => 'https://github.com/luowei/libColorPicker.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/luowei/LWColorPicker.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'libColorPicker/Classes/**/*'
+  s.source_files = 'LWColorPicker/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'libColorPicker' => ['libColorPicker/Assets/*.png']
+  #   'LWColorPicker' => ['LWColorPicker/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

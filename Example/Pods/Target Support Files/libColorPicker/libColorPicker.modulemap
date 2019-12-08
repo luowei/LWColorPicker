@@ -1,6 +1,0 @@
-framework module libColorPicker {
-  umbrella header "libColorPicker-umbrella.h"
-
-  export *
-  module * { export * }
-}
