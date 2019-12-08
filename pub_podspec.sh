@@ -1,3 +1,3 @@
 #!/bin/sh
-
-pod repo push mygitlabrepo LWColorPicker.podspec --verbose --allow-warnings --sources="https://github.com/CocoaPods/Specs.git"
+# pod lib lint --allow-warnings
+pod repo push mygitlabrepo LWColorPicker.podspec --verbose --allow-warnings
