@@ -35,3 +35,8 @@ Carthage/Build
 # `pod install` in .travis.yml
 #
 Pods/
+
+# package产出物
+LWColorPicker-*/
+build/
+product/
