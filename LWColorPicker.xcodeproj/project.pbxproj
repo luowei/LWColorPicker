@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EAACC4EA25F8154D0056B88D /* RSColorFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4BD25F8154C0056B88D /* RSColorFunctions.m */; };
+		EAACC4EB25F8154D0056B88D /* RSBrightnessSlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4BE25F8154C0056B88D /* RSBrightnessSlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4EC25F8154D0056B88D /* RSGenerateOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4BF25F8154C0056B88D /* RSGenerateOperation.m */; };
+		EAACC4ED25F8154D0056B88D /* RSColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4C025F8154C0056B88D /* RSColorPickerView.m */; };
+		EAACC4EE25F8154D0056B88D /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4C325F8154D0056B88D /* UIImage+ANImageBitmapRep.m */; };
+		EAACC4EF25F8154D0056B88D /* OSCommonImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4C425F8154D0056B88D /* OSCommonImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F025F8154D0056B88D /* NSImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4C525F8154D0056B88D /* NSImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F125F8154D0056B88D /* UIImage+ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4C625F8154D0056B88D /* UIImage+ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F225F8154D0056B88D /* NSImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4C725F8154D0056B88D /* NSImage+ANImageBitmapRep.m */; };
+		EAACC4F325F8154D0056B88D /* OSCommonImage.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4C825F8154D0056B88D /* OSCommonImage.m */; };
+		EAACC4F425F8154D0056B88D /* BitmapDrawManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4CA25F8154D0056B88D /* BitmapDrawManipulator.m */; };
+		EAACC4F525F8154D0056B88D /* BitmapRotationManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4CB25F8154D0056B88D /* BitmapRotationManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F625F8154D0056B88D /* BitmapContextManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4CC25F8154D0056B88D /* BitmapContextManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F725F8154D0056B88D /* BitmapScaleManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4CD25F8154D0056B88D /* BitmapScaleManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4F825F8154D0056B88D /* BitmapCropManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4CE25F8154D0056B88D /* BitmapCropManipulator.m */; };
+		EAACC4F925F8154D0056B88D /* BitmapRotationManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4CF25F8154D0056B88D /* BitmapRotationManipulator.m */; };
+		EAACC4FA25F8154D0056B88D /* BitmapDrawManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4D025F8154D0056B88D /* BitmapDrawManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4FB25F8154D0056B88D /* BitmapScaleManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4D125F8154D0056B88D /* BitmapScaleManipulator.m */; };
+		EAACC4FC25F8154D0056B88D /* BitmapContextManipulator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4D225F8154D0056B88D /* BitmapContextManipulator.m */; };
+		EAACC4FD25F8154D0056B88D /* BitmapCropManipulator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4D325F8154D0056B88D /* BitmapCropManipulator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4FE25F8154D0056B88D /* ANImageBitmapRep.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4D425F8154D0056B88D /* ANImageBitmapRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC4FF25F8154D0056B88D /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4D625F8154D0056B88D /* CGImageContainer.m */; };
+		EAACC50025F8154D0056B88D /* CGContextCreator.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4D725F8154D0056B88D /* CGContextCreator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50125F8154D0056B88D /* CGImageContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4D825F8154D0056B88D /* CGImageContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50225F8154D0056B88D /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4D925F8154D0056B88D /* CGContextCreator.m */; };
+		EAACC50325F8154D0056B88D /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4DA25F8154D0056B88D /* BitmapContextRep.m */; };
+		EAACC50425F8154D0056B88D /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4DB25F8154D0056B88D /* ANImageBitmapRep.m */; };
+		EAACC50525F8154D0056B88D /* BitmapContextRep.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4DC25F8154D0056B88D /* BitmapContextRep.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50625F8154D0056B88D /* RSSelectionLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4DD25F8154D0056B88D /* RSSelectionLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50725F8154D0056B88D /* RSColorPickerState.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4DE25F8154D0056B88D /* RSColorPickerState.m */; };
+		EAACC50825F8154D0056B88D /* BGRSLoupeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4DF25F8154D0056B88D /* BGRSLoupeLayer.m */; };
+		EAACC50A25F8154D0056B88D /* RSOpacitySlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4E125F8154D0056B88D /* RSOpacitySlider.m */; };
+		EAACC50B25F8154D0056B88D /* RSBrightnessSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4E225F8154D0056B88D /* RSBrightnessSlider.m */; };
+		EAACC50C25F8154D0056B88D /* RSColorFunctions.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E325F8154D0056B88D /* RSColorFunctions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50D25F8154D0056B88D /* RSColorPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E425F8154D0056B88D /* RSColorPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50E25F8154D0056B88D /* RSGenerateOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E525F8154D0056B88D /* RSGenerateOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC50F25F8154D0056B88D /* RSOpacitySlider.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E625F8154D0056B88D /* RSOpacitySlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC51025F8154D0056B88D /* RSColorPickerState.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E725F8154D0056B88D /* RSColorPickerState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC51125F8154D0056B88D /* BGRSLoupeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EAACC4E825F8154D0056B88D /* BGRSLoupeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAACC51225F8154D0056B88D /* RSSelectionLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = EAACC4E925F8154D0056B88D /* RSSelectionLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EAACC4B125F814B40056B88D /* LWColorPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LWColorPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAACC4B525F814B40056B88D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAACC4BD25F8154C0056B88D /* RSColorFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorFunctions.m; sourceTree = "<group>"; };
+		EAACC4BE25F8154C0056B88D /* RSBrightnessSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSBrightnessSlider.h; sourceTree = "<group>"; };
+		EAACC4BF25F8154C0056B88D /* RSGenerateOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSGenerateOperation.m; sourceTree = "<group>"; };
+		EAACC4C025F8154C0056B88D /* RSColorPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorPickerView.m; sourceTree = "<group>"; };
+		EAACC4C325F8154D0056B88D /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		EAACC4C425F8154D0056B88D /* OSCommonImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OSCommonImage.h; sourceTree = "<group>"; };
+		EAACC4C525F8154D0056B88D /* NSImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		EAACC4C625F8154D0056B88D /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		EAACC4C725F8154D0056B88D /* NSImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		EAACC4C825F8154D0056B88D /* OSCommonImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OSCommonImage.m; sourceTree = "<group>"; };
+		EAACC4CA25F8154D0056B88D /* BitmapDrawManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapDrawManipulator.m; sourceTree = "<group>"; };
+		EAACC4CB25F8154D0056B88D /* BitmapRotationManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapRotationManipulator.h; sourceTree = "<group>"; };
+		EAACC4CC25F8154D0056B88D /* BitmapContextManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextManipulator.h; sourceTree = "<group>"; };
+		EAACC4CD25F8154D0056B88D /* BitmapScaleManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapScaleManipulator.h; sourceTree = "<group>"; };
+		EAACC4CE25F8154D0056B88D /* BitmapCropManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapCropManipulator.m; sourceTree = "<group>"; };
+		EAACC4CF25F8154D0056B88D /* BitmapRotationManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapRotationManipulator.m; sourceTree = "<group>"; };
+		EAACC4D025F8154D0056B88D /* BitmapDrawManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapDrawManipulator.h; sourceTree = "<group>"; };
+		EAACC4D125F8154D0056B88D /* BitmapScaleManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapScaleManipulator.m; sourceTree = "<group>"; };
+		EAACC4D225F8154D0056B88D /* BitmapContextManipulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextManipulator.m; sourceTree = "<group>"; };
+		EAACC4D325F8154D0056B88D /* BitmapCropManipulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapCropManipulator.h; sourceTree = "<group>"; };
+		EAACC4D425F8154D0056B88D /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		EAACC4D625F8154D0056B88D /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		EAACC4D725F8154D0056B88D /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		EAACC4D825F8154D0056B88D /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		EAACC4D925F8154D0056B88D /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		EAACC4DA25F8154D0056B88D /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		EAACC4DB25F8154D0056B88D /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		EAACC4DC25F8154D0056B88D /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		EAACC4DD25F8154D0056B88D /* RSSelectionLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSelectionLayer.h; sourceTree = "<group>"; };
+		EAACC4DE25F8154D0056B88D /* RSColorPickerState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSColorPickerState.m; sourceTree = "<group>"; };
+		EAACC4DF25F8154D0056B88D /* BGRSLoupeLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGRSLoupeLayer.m; sourceTree = "<group>"; };
+		EAACC4E125F8154D0056B88D /* RSOpacitySlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSOpacitySlider.m; sourceTree = "<group>"; };
+		EAACC4E225F8154D0056B88D /* RSBrightnessSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSBrightnessSlider.m; sourceTree = "<group>"; };
+		EAACC4E325F8154D0056B88D /* RSColorFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorFunctions.h; sourceTree = "<group>"; };
+		EAACC4E425F8154D0056B88D /* RSColorPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorPickerView.h; sourceTree = "<group>"; };
+		EAACC4E525F8154D0056B88D /* RSGenerateOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSGenerateOperation.h; sourceTree = "<group>"; };
+		EAACC4E625F8154D0056B88D /* RSOpacitySlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSOpacitySlider.h; sourceTree = "<group>"; };
+		EAACC4E725F8154D0056B88D /* RSColorPickerState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSColorPickerState.h; sourceTree = "<group>"; };
+		EAACC4E825F8154D0056B88D /* BGRSLoupeLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGRSLoupeLayer.h; sourceTree = "<group>"; };
+		EAACC4E925F8154D0056B88D /* RSSelectionLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSelectionLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAACC4AE25F814B40056B88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EAACC4A725F814B40056B88D = {
+			isa = PBXGroup;
+			children = (
+				EAACC4B325F814B40056B88D /* LWColorPicker */,
+				EAACC4B225F814B40056B88D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAACC4B225F814B40056B88D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4B125F814B40056B88D /* LWColorPicker.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAACC4B325F814B40056B88D /* LWColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4BC25F8154C0056B88D /* Classes */,
+				EAACC4B525F814B40056B88D /* Info.plist */,
+			);
+			path = LWColorPicker;
+			sourceTree = "<group>";
+		};
+		EAACC4BC25F8154C0056B88D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4BD25F8154C0056B88D /* RSColorFunctions.m */,
+				EAACC4BE25F8154C0056B88D /* RSBrightnessSlider.h */,
+				EAACC4BF25F8154C0056B88D /* RSGenerateOperation.m */,
+				EAACC4C025F8154C0056B88D /* RSColorPickerView.m */,
+				EAACC4C125F8154D0056B88D /* ANImageBitmapRep */,
+				EAACC4DD25F8154D0056B88D /* RSSelectionLayer.h */,
+				EAACC4DE25F8154D0056B88D /* RSColorPickerState.m */,
+				EAACC4DF25F8154D0056B88D /* BGRSLoupeLayer.m */,
+				EAACC4E125F8154D0056B88D /* RSOpacitySlider.m */,
+				EAACC4E225F8154D0056B88D /* RSBrightnessSlider.m */,
+				EAACC4E325F8154D0056B88D /* RSColorFunctions.h */,
+				EAACC4E425F8154D0056B88D /* RSColorPickerView.h */,
+				EAACC4E525F8154D0056B88D /* RSGenerateOperation.h */,
+				EAACC4E625F8154D0056B88D /* RSOpacitySlider.h */,
+				EAACC4E725F8154D0056B88D /* RSColorPickerState.h */,
+				EAACC4E825F8154D0056B88D /* BGRSLoupeLayer.h */,
+				EAACC4E925F8154D0056B88D /* RSSelectionLayer.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		EAACC4C125F8154D0056B88D /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4C225F8154D0056B88D /* Compatibility */,
+				EAACC4C925F8154D0056B88D /* Manipulators */,
+				EAACC4D425F8154D0056B88D /* ANImageBitmapRep.h */,
+				EAACC4D525F8154D0056B88D /* CoreGraphics */,
+				EAACC4DA25F8154D0056B88D /* BitmapContextRep.m */,
+				EAACC4DB25F8154D0056B88D /* ANImageBitmapRep.m */,
+				EAACC4DC25F8154D0056B88D /* BitmapContextRep.h */,
+			);
+			path = ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		EAACC4C225F8154D0056B88D /* Compatibility */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4C325F8154D0056B88D /* UIImage+ANImageBitmapRep.m */,
+				EAACC4C425F8154D0056B88D /* OSCommonImage.h */,
+				EAACC4C525F8154D0056B88D /* NSImage+ANImageBitmapRep.h */,
+				EAACC4C625F8154D0056B88D /* UIImage+ANImageBitmapRep.h */,
+				EAACC4C725F8154D0056B88D /* NSImage+ANImageBitmapRep.m */,
+				EAACC4C825F8154D0056B88D /* OSCommonImage.m */,
+			);
+			path = Compatibility;
+			sourceTree = "<group>";
+		};
+		EAACC4C925F8154D0056B88D /* Manipulators */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4CA25F8154D0056B88D /* BitmapDrawManipulator.m */,
+				EAACC4CB25F8154D0056B88D /* BitmapRotationManipulator.h */,
+				EAACC4CC25F8154D0056B88D /* BitmapContextManipulator.h */,
+				EAACC4CD25F8154D0056B88D /* BitmapScaleManipulator.h */,
+				EAACC4CE25F8154D0056B88D /* BitmapCropManipulator.m */,
+				EAACC4CF25F8154D0056B88D /* BitmapRotationManipulator.m */,
+				EAACC4D025F8154D0056B88D /* BitmapDrawManipulator.h */,
+				EAACC4D125F8154D0056B88D /* BitmapScaleManipulator.m */,
+				EAACC4D225F8154D0056B88D /* BitmapContextManipulator.m */,
+				EAACC4D325F8154D0056B88D /* BitmapCropManipulator.h */,
+			);
+			path = Manipulators;
+			sourceTree = "<group>";
+		};
+		EAACC4D525F8154D0056B88D /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				EAACC4D625F8154D0056B88D /* CGImageContainer.m */,
+				EAACC4D725F8154D0056B88D /* CGContextCreator.h */,
+				EAACC4D825F8154D0056B88D /* CGImageContainer.h */,
+				EAACC4D925F8154D0056B88D /* CGContextCreator.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EAACC4AC25F814B40056B88D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACC4EB25F8154D0056B88D /* RSBrightnessSlider.h in Headers */,
+				EAACC50E25F8154D0056B88D /* RSGenerateOperation.h in Headers */,
+				EAACC51125F8154D0056B88D /* BGRSLoupeLayer.h in Headers */,
+				EAACC4F025F8154D0056B88D /* NSImage+ANImageBitmapRep.h in Headers */,
+				EAACC50525F8154D0056B88D /* BitmapContextRep.h in Headers */,
+				EAACC4FE25F8154D0056B88D /* ANImageBitmapRep.h in Headers */,
+				EAACC4F625F8154D0056B88D /* BitmapContextManipulator.h in Headers */,
+				EAACC50125F8154D0056B88D /* CGImageContainer.h in Headers */,
+				EAACC50D25F8154D0056B88D /* RSColorPickerView.h in Headers */,
+				EAACC50F25F8154D0056B88D /* RSOpacitySlider.h in Headers */,
+				EAACC4F125F8154D0056B88D /* UIImage+ANImageBitmapRep.h in Headers */,
+				EAACC4FD25F8154D0056B88D /* BitmapCropManipulator.h in Headers */,
+				EAACC50025F8154D0056B88D /* CGContextCreator.h in Headers */,
+				EAACC4FA25F8154D0056B88D /* BitmapDrawManipulator.h in Headers */,
+				EAACC50625F8154D0056B88D /* RSSelectionLayer.h in Headers */,
+				EAACC51025F8154D0056B88D /* RSColorPickerState.h in Headers */,
+				EAACC4F525F8154D0056B88D /* BitmapRotationManipulator.h in Headers */,
+				EAACC4F725F8154D0056B88D /* BitmapScaleManipulator.h in Headers */,
+				EAACC50C25F8154D0056B88D /* RSColorFunctions.h in Headers */,
+				EAACC4EF25F8154D0056B88D /* OSCommonImage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EAACC4B025F814B40056B88D /* LWColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAACC4B925F814B40056B88D /* Build configuration list for PBXNativeTarget "LWColorPicker" */;
+			buildPhases = (
+				EAACC4AC25F814B40056B88D /* Headers */,
+				EAACC4AD25F814B40056B88D /* Sources */,
+				EAACC4AE25F814B40056B88D /* Frameworks */,
+				EAACC4AF25F814B40056B88D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LWColorPicker;
+			productName = LWColorPicker;
+			productReference = EAACC4B125F814B40056B88D /* LWColorPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAACC4A825F814B40056B88D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Luo Wei";
+				TargetAttributes = {
+					EAACC4B025F814B40056B88D = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = EAACC4AB25F814B40056B88D /* Build configuration list for PBXProject "LWColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAACC4A725F814B40056B88D;
+			productRefGroup = EAACC4B225F814B40056B88D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAACC4B025F814B40056B88D /* LWColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAACC4AF25F814B40056B88D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAACC4AD25F814B40056B88D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAACC4F925F8154D0056B88D /* BitmapRotationManipulator.m in Sources */,
+				EAACC4EA25F8154D0056B88D /* RSColorFunctions.m in Sources */,
+				EAACC50725F8154D0056B88D /* RSColorPickerState.m in Sources */,
+				EAACC50425F8154D0056B88D /* ANImageBitmapRep.m in Sources */,
+				EAACC4ED25F8154D0056B88D /* RSColorPickerView.m in Sources */,
+				EAACC51225F8154D0056B88D /* RSSelectionLayer.m in Sources */,
+				EAACC4EC25F8154D0056B88D /* RSGenerateOperation.m in Sources */,
+				EAACC4FB25F8154D0056B88D /* BitmapScaleManipulator.m in Sources */,
+				EAACC4FF25F8154D0056B88D /* CGImageContainer.m in Sources */,
+				EAACC4FC25F8154D0056B88D /* BitmapContextManipulator.m in Sources */,
+				EAACC4F225F8154D0056B88D /* NSImage+ANImageBitmapRep.m in Sources */,
+				EAACC4F425F8154D0056B88D /* BitmapDrawManipulator.m in Sources */,
+				EAACC50A25F8154D0056B88D /* RSOpacitySlider.m in Sources */,
+				EAACC4F325F8154D0056B88D /* OSCommonImage.m in Sources */,
+				EAACC50325F8154D0056B88D /* BitmapContextRep.m in Sources */,
+				EAACC50225F8154D0056B88D /* CGContextCreator.m in Sources */,
+				EAACC4EE25F8154D0056B88D /* UIImage+ANImageBitmapRep.m in Sources */,
+				EAACC4F825F8154D0056B88D /* BitmapCropManipulator.m in Sources */,
+				EAACC50825F8154D0056B88D /* BGRSLoupeLayer.m in Sources */,
+				EAACC50B25F8154D0056B88D /* RSBrightnessSlider.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAACC4B725F814B40056B88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EAACC4B825F814B40056B88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EAACC4BA25F814B40056B88D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWColorPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LWColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAACC4BB25F814B40056B88D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = G3A2KYKYBU;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = LWColorPicker/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.LWColorPicker;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAACC4AB25F814B40056B88D /* Build configuration list for PBXProject "LWColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAACC4B725F814B40056B88D /* Debug */,
+				EAACC4B825F814B40056B88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAACC4B925F814B40056B88D /* Build configuration list for PBXNativeTarget "LWColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAACC4BA25F814B40056B88D /* Debug */,
+				EAACC4BB25F814B40056B88D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAACC4A825F814B40056B88D /* Project object */;
+}
