@@ -9,6 +9,39 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```Objective-C
+@property (nonatomic) IBOutlet RSColorPickerView *colorPicker;
+
+- (void)awakeFromNib {
+    [super awakeFromNib];
+
+    if(_colorPicker && _brightnessSlider && _opacitySlider){
+        _colorPicker.delegate = self;
+        _brightnessSlider.delegate = self;
+        _opacitySlider.delegate = self;
+    }
+}
+
+// Implement RSColorPickerViewDelegate
+- (void)colorPickerDidChangeSelection:(RSColorPickerView *)colorPicker {
+
+    UIColor *selectedColor = [colorPicker selectionColor];
+    //todo: something ......
+}
+
+
+// Implement RSBrightnessSliderDelegate
+- (void)brightnessSlide:(RSBrightnessSlider *)brightnessSlider valueChanged:(float)value {
+    [_colorPicker setBrightness:value];
+}
+
+// Implement RSOpacitySliderDelegate
+- (void)opacitySlider:(RSOpacitySlider *)opacitySlider opacityChanged:(float)value {
+    [_colorPicker setOpacity:value];
+}
+
+```
+
 ## Requirements
 
 ## Installation
