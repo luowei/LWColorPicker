@@ -5,63 +5,63 @@
 [![License](https://img.shields.io/cocoapods/l/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
 
-[中文文档](README_ZH.md)
+[English Documentation](README.md)
 
-## Description
+## 项目描述
 
-LWColorPicker is a powerful and customizable color picker component for iOS applications. It provides an intuitive interface for users to select colors by adjusting hue, saturation, brightness, and opacity. The library supports both circular and rectangular HSB (Hue-Saturation-Brightness) color mode displays with real-time color selection feedback.
+LWColorPicker 是一个功能强大且可自定义的 iOS 颜色选择器组件。它为用户提供了通过调整色相、饱和度、亮度和不透明度来选择颜色的直观界面。该库支持圆形和矩形 HSB（色相-饱和度-亮度）颜色模式显示，并提供实时颜色选择反馈。
 
-## Features
+## 功能特性
 
-- **HSB Color Model**: Intuitive hue, saturation, and brightness color selection
-- **Flexible Display**: Support for both circular and rectangular color picker layouts
-- **Brightness Control**: Independent brightness slider for fine-tuned color adjustments
-- **Opacity Support**: Built-in alpha/opacity control for transparent colors
-- **Real-time Feedback**: Live color preview and selection updates
-- **Magnifying Loupe**: Optional magnifying glass for precise color selection
-- **Delegate Pattern**: Flexible delegate callbacks for color selection events
-- **Touch Events**: Support for touch began and ended delegate callbacks
-- **Performance Optimized**: Async preparation methods for smooth UX
+- **HSB 颜色模型**: 直观的色相、饱和度和亮度颜色选择
+- **灵活的显示**: 支持圆形和矩形颜色选择器布局
+- **亮度控制**: 独立的亮度滑块，用于精细调整颜色
+- **不透明度支持**: 内置透明颜色的 alpha/不透明度控制
+- **实时反馈**: 实时颜色预览和选择更新
+- **放大镜**: 可选的放大镜，用于精确选择颜色
+- **委托模式**: 灵活的委托回调用于颜色选择事件
+- **触摸事件**: 支持触摸开始和结束的委托回调
+- **性能优化**: 异步准备方法以实现流畅的用户体验
 
-## Requirements
+## 系统要求
 
 - iOS 8.0+
 - Xcode 8.0+
 - Objective-C
 
-## Installation
+## 安装方法
 
 ### CocoaPods
 
-LWColorPicker is available through [CocoaPods](https://cocoapods.org). To install it, simply add the following line to your Podfile:
+LWColorPicker 可通过 [CocoaPods](https://cocoapods.org) 安装。只需在 Podfile 中添加以下行：
 
 ```ruby
 pod 'LWColorPicker'
 ```
 
-Then run:
+然后运行：
 ```bash
 pod install
 ```
 
 ### Carthage
 
-Add the following line to your Cartfile:
+在 Cartfile 中添加以下行：
 
 ```ruby
 github "luowei/LWColorPicker"
 ```
 
-Then run:
+然后运行：
 ```bash
 carthage update --platform iOS
 ```
 
-## Usage
+## 使用方法
 
-### Basic Setup
+### 基本设置
 
-Import the header:
+导入头文件：
 
 ```objective-c
 #import <LWColorPicker/RSColorPickerView.h>
@@ -69,7 +69,7 @@ Import the header:
 #import <LWColorPicker/RSOpacitySlider.h>
 ```
 
-### Creating a Color Picker
+### 创建颜色选择器
 
 ```objective-c
 @property (nonatomic) IBOutlet RSColorPickerView *colorPicker;
@@ -84,14 +84,14 @@ Import the header:
         _brightnessSlider.delegate = self;
         _opacitySlider.delegate = self;
 
-        // Configure color picker
-        _colorPicker.cropToCircle = YES; // Use circular picker
-        _colorPicker.showLoupe = YES;    // Show magnifying loupe
+        // 配置颜色选择器
+        _colorPicker.cropToCircle = YES; // 使用圆形选择器
+        _colorPicker.showLoupe = YES;    // 显示放大镜
     }
 }
 ```
 
-### Programmatic Setup
+### 编程方式设置
 
 ```objective-c
 RSColorPickerView *colorPicker = [[RSColorPickerView alloc] initWithFrame:CGRectMake(20, 100, 300, 300)];
@@ -101,27 +101,27 @@ colorPicker.brightness = 1.0;
 [self.view addSubview:colorPicker];
 ```
 
-### Implementing Delegates
+### 实现委托
 
 ```objective-c
 #pragma mark - RSColorPickerViewDelegate
 
 - (void)colorPickerDidChangeSelection:(RSColorPickerView *)colorPicker {
     UIColor *selectedColor = [colorPicker selectionColor];
-    // Update your UI with the selected color
+    // 使用选中的颜色更新 UI
     self.previewView.backgroundColor = selectedColor;
 }
 
 - (void)colorPicker:(RSColorPickerView *)colorPicker
        touchesBegan:(NSSet *)touches
           withEvent:(UIEvent *)event {
-    // Handle touch began
+    // 处理触摸开始
 }
 
 - (void)colorPicker:(RSColorPickerView *)colorPicker
        touchesEnded:(NSSet *)touches
           withEvent:(UIEvent *)event {
-    // Handle touch ended
+    // 处理触摸结束
 }
 
 #pragma mark - RSBrightnessSliderDelegate
@@ -137,53 +137,53 @@ colorPicker.brightness = 1.0;
 }
 ```
 
-### Color Selection
+### 颜色选择
 
 ```objective-c
-// Set a specific color
+// 设置特定颜色
 colorPicker.selectionColor = [UIColor redColor];
 
-// Get the current selected color
+// 获取当前选中的颜色
 UIColor *currentColor = colorPicker.selectionColor;
 
-// Get color at a specific point
+// 获取特定点的颜色
 UIColor *colorAtPoint = [colorPicker colorAtPoint:CGPointMake(100, 100)];
 ```
 
-### Performance Optimization
+### 性能优化
 
-Pre-prepare color picker data for better UX:
+预先准备颜色选择器数据以获得更好的用户体验：
 
 ```objective-c
-// Prepare in background for specific size
+// 在后台为特定尺寸准备
 [RSColorPickerView prepareForSize:CGSizeMake(300, 300)];
 
-// Prepare with custom padding
+// 使用自定义边距准备
 [RSColorPickerView prepareForSize:CGSizeMake(300, 300) padding:20];
 
-// Prepare with custom scale and padding in background
+// 在后台使用自定义缩放和边距准备
 [RSColorPickerView prepareForSize:CGSizeMake(300, 300)
                             scale:[UIScreen mainScreen].scale
                           padding:20
                      inBackground:YES];
 ```
 
-## API Documentation
+## API 文档
 
 ### RSColorPickerView
 
-Main color picker view:
+主颜色选择器视图：
 
 ```objective-c
 @interface RSColorPickerView : UIView
 
-@property (nonatomic) BOOL cropToCircle;         // Circular or square picker
-@property (nonatomic) BOOL showLoupe;            // Show magnifying loupe
-@property (nonatomic) CGFloat brightness;        // 0.0 to 1.0
-@property (nonatomic) CGFloat opacity;           // 0.0 to 1.0
-@property (nonatomic) UIColor *selectionColor;   // Current selected color
-@property (readwrite) CGPoint selection;         // Selection point
-@property (readonly) CGFloat paddingDistance;    // Edge padding
+@property (nonatomic) BOOL cropToCircle;         // 圆形或方形选择器
+@property (nonatomic) BOOL showLoupe;            // 显示放大镜
+@property (nonatomic) CGFloat brightness;        // 0.0 到 1.0
+@property (nonatomic) CGFloat opacity;           // 0.0 到 1.0
+@property (nonatomic) UIColor *selectionColor;   // 当前选中的颜色
+@property (readwrite) CGPoint selection;         // 选择点
+@property (readonly) CGFloat paddingDistance;    // 边缘填充
 @property (nonatomic, weak) IBOutlet id<RSColorPickerViewDelegate> delegate;
 
 - (UIColor *)colorAtPoint:(CGPoint)point;
@@ -238,9 +238,9 @@ Main color picker view:
 @end
 ```
 
-## Example Project
+## 示例项目
 
-To run the example project, clone the repo and run `pod install` from the Example directory first:
+要运行示例项目，请克隆仓库并首先从 Example 目录运行 `pod install`：
 
 ```bash
 git clone https://github.com/luowei/LWColorPicker.git
@@ -249,10 +249,10 @@ pod install
 open LWColorPicker.xcworkspace
 ```
 
-## Author
+## 作者
 
 luowei, luowei@wodedata.com
 
-## License
+## 许可证
 
-LWColorPicker is available under the MIT license. See the LICENSE file for more info.
+LWColorPicker 基于 MIT 许可证开源。详见 LICENSE 文件。
