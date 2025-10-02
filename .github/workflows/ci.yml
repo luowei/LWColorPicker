@@ -1,0 +1,71 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+  workflow_dispatch:
+
+jobs:
+  validate-podspec:
+    name: Validate Podspec
+    runs-on: macos-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+          bundler-cache: true
+
+      - name: Install CocoaPods
+        run: gem install cocoapods
+
+      - name: Validate Podspec
+        run: pod lib lint --allow-warnings
+
+  build-example:
+    name: Build Example
+    runs-on: macos-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        xcode: ['14.3.1', '15.0']
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -s /Applications/Xcode_${{ matrix.xcode }}.app
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+
+      - name: Cache CocoaPods
+        uses: actions/cache@v3
+        with:
+          path: Example/Pods
+          key: ${{ runner.os }}-pods-${{ hashFiles('Example/Podfile.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-pods-
+
+      - name: Install Dependencies
+        run: |
+          cd Example
+          pod install
+
+      - name: Build and Test Example
+        run: |
+          cd Example
+          xcodebuild build test \
+            -workspace LWColorPicker.xcworkspace \
+            -scheme LWColorPicker-Example \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 14' \
+            -enableCodeCoverage YES \
+            | xcpretty
