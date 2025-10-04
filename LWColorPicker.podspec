@@ -32,6 +32,7 @@ LWColorPicker，颜色选择器，支持色相、饱和度、透明度的选取�
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'LWColorPicker/Classes/**/*'
+  s.exclude_files = 'LWColorPicker/Swift/**/*.swift'
   
   # s.resource_bundles = {
   #   'LWColorPicker' => ['LWColorPicker/Assets/*.png']

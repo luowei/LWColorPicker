@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
 [![Platform](https://img.shields.io/cocoapods/p/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
 
-**Language**: [English](./README.md) | [中文版](./README_ZH.md)
+**Language**: [English](./README.md) | [中文版](./README_ZH.md) | [Swift Version](./README_SWIFT_VERSION.md)
 
 ---
 
