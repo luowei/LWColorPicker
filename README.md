@@ -1,5 +1,12 @@
 # LWColorPicker
 
+
+## graphify Knowledge Graph
+
+- Interactive graph: https://luowei.github.io/LWColorPicker/
+- Report: https://luowei.github.io/LWColorPicker/GRAPH_REPORT.md
+- Graph data: https://luowei.github.io/LWColorPicker/graph.json
+
 [![CI Status](https://img.shields.io/travis/luowei/LWColorPicker.svg?style=flat)](https://travis-ci.org/luowei/LWColorPicker)
 [![Version](https://img.shields.io/cocoapods/v/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
 [![License](https://img.shields.io/cocoapods/l/LWColorPicker.svg?style=flat)](https://cocoapods.org/pods/LWColorPicker)
